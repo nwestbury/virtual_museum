@@ -83,14 +83,20 @@ const styles = theme => ({
 
 const backgroundClasses = ['homeBck', 'historyBck', 'physicalBck', 'stuffBck', 'referencesBck']
 const names = ['Home', 'Bothriolepis History', 'Physical Characteristics', 'More Stuff', 'References'];
-const urls  = ['/', '/history', '/physical-characteristics', '/stuff', '/references'];
 
 class NavTabs extends React.Component {
   constructor(props) {
     super(props);
 
     const {pathname} = history.location;
-    let value = urls.indexOf(pathname);
+
+    const base_url = '/virtual_museum';
+    this.urls = ['/', '/history', '/physical-characteristics', '/stuff', '/references'];
+    if (pathname.startsWith(base_url)) {
+      this.urls = this.urls.map(v => base_url + v);
+    }
+
+    let value = this.urls.indexOf(pathname);
 
     if (value === -1) {
         value = 0;
@@ -102,7 +108,7 @@ class NavTabs extends React.Component {
   }
 
   handleChange = (e, value) => {
-    history.push(urls[value]);
+    history.push(this.urls[value]);
     this.setState({ value });
   };
 
@@ -129,11 +135,11 @@ class NavTabs extends React.Component {
         <div className={classes.root}>
           <Router history={history}>
             <div className={classes[curClass] + ' ' + classes.fullHeight}>
-                <Route exact path="/" component={Home} />
-                <Route path="/history" component={HistoryPage} />
-                <Route path="/physical-characteristics" component={PhysicalCharsPage} />
-                <Route path="/stuff" component={StuffPage} />
-                <Route path="/references" component={ReferencePage} />
+                <Route exact path={this.urls[0]} component={Home} />
+                <Route path={this.urls[1]} component={HistoryPage} />
+                <Route path={this.urls[2]} component={PhysicalCharsPage} />
+                <Route path={this.urls[3]} component={StuffPage} />
+                <Route path={this.urls[4]} component={ReferencePage} />
                 <div className={classes.buttons}>
                     {value > 0 ?
                         <Button
@@ -144,7 +150,7 @@ class NavTabs extends React.Component {
                             <KeyboardArrowLeft />
                             Back
                         </Button> : null}
-                    { value < urls.length - 1 ?
+                    { value < this.urls.length - 1 ?
                         <Button
                             variant="contained"
                             color="primary"
