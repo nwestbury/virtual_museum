@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/virtual_museum/static/media/head.bc761cf0.png"
   },
   {
-    "revision": "196aa529208c9c43a467",
+    "revision": "bb6559fecd2fe065cbde",
     "url": "/virtual_museum/static/css/main.b2aba3b6.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/virtual_museum/static/media/fins.2739bcc1.png"
   },
   {
-    "revision": "196aa529208c9c43a467",
-    "url": "/virtual_museum/static/js/main.196aa529.chunk.js"
+    "revision": "bb6559fecd2fe065cbde",
+    "url": "/virtual_museum/static/js/main.bb6559fe.chunk.js"
   },
   {
     "revision": "01cdb624d310d592e24ece7a0dcf94b8",
@@ -56,7 +56,7 @@ self.__precacheManifest = [
     "url": "/virtual_museum/static/media/pool_bck.448adea4.png"
   },
   {
-    "revision": "86ae8cab04429bd1fb7f3bead3303ddd",
+    "revision": "bd48e914d1fbffecaddbdc1267ef80e8",
     "url": "/virtual_museum/index.html"
   }
 ];

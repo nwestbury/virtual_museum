@@ -1,7 +1,7 @@
 {
   "main.css": "/virtual_museum/static/css/main.b2aba3b6.chunk.css",
-  "main.js": "/virtual_museum/static/js/main.196aa529.chunk.js",
-  "main.js.map": "/virtual_museum/static/js/main.196aa529.chunk.js.map",
+  "main.js": "/virtual_museum/static/js/main.bb6559fe.chunk.js",
+  "main.js.map": "/virtual_museum/static/js/main.bb6559fe.chunk.js.map",
   "static/js/1.a7506f49.chunk.js": "/virtual_museum/static/js/1.a7506f49.chunk.js",
   "static/js/1.a7506f49.chunk.js.map": "/virtual_museum/static/js/1.a7506f49.chunk.js.map",
   "runtime~main.js": "/virtual_museum/static/js/runtime~main.7c04a9ef.js",
@@ -18,6 +18,6 @@
   "static/media/Bothriolepis_canadensis.jpg": "/virtual_museum/static/media/Bothriolepis_canadensis.9217cfdc.jpg",
   "static/css/main.b2aba3b6.chunk.css.map": "/virtual_museum/static/css/main.b2aba3b6.chunk.css.map",
   "index.html": "/virtual_museum/index.html",
-  "precache-manifest.88e2ed720874c65021567eebb54bc695.js": "/virtual_museum/precache-manifest.88e2ed720874c65021567eebb54bc695.js",
+  "precache-manifest.7f8624bff9e082f4a522f33c91f5f9b6.js": "/virtual_museum/precache-manifest.7f8624bff9e082f4a522f33c91f5f9b6.js",
   "service-worker.js": "/virtual_museum/service-worker.js"
 }
