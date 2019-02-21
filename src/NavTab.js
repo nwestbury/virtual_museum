@@ -1,5 +1,5 @@
 import React from 'react';
-import { Router, Route } from 'react-router-dom';
+import { HashRouter, Route, Link } from 'react-router-dom';
 import PropTypes from 'prop-types';
 import { withStyles } from '@material-ui/core/styles';
 import AppBar from '@material-ui/core/AppBar';
@@ -88,27 +88,25 @@ class NavTabs extends React.Component {
   constructor(props) {
     super(props);
 
-    const {pathname} = history.location;
-
-    const base_url = '/virtual_museum';
     this.urls = ['/', '/history', '/physical-characteristics', '/stuff', '/references'];
-    if (pathname.startsWith(base_url)) {
-      this.urls = this.urls.map(v => base_url + v);
-    }
 
-    let value = this.urls.indexOf(pathname);
-
-    if (value === -1) {
-        value = 0;
-    }
-
+    const value = this.getValue();
     this.state = {
         value,
     }
   }
 
+  getValue = () => {
+    const {hash} = history.location;
+    let value = this.urls.indexOf(hash.replace('#', ''));
+
+    if (value === -1) {
+        value = 0;
+    }
+    return value;
+  }
+
   handleChange = (e, value) => {
-    history.push(this.urls[value]);
     this.setState({ value });
   };
 
@@ -119,33 +117,40 @@ class NavTabs extends React.Component {
 
     return (
       <NoSsr>
-        <AppBar position="static" color="default">
-          <Tabs
-              value={value}
-              indicatorColor="primary"
-              textColor="primary"
-              onChange={this.handleChange}
-              centered
-          >
-              {names.map((name) => (
-                  <Tab key={name} label={name} />
-              ))}
-          </Tabs>
-        </AppBar> 
         <div className={classes.root}>
-          <Router history={history}>
+          <HashRouter>
             <div className={classes[curClass] + ' ' + classes.fullHeight}>
-                <Route exact path={this.urls[0]} component={Home} />
+                <AppBar position="static" color="default">
+                  <Tabs
+                      value={value}
+                      indicatorColor="primary"
+                      textColor="primary"
+                      onChange={this.handleChange}
+                      centered
+                  >
+                      {names.map((name, index) => (
+                          <Tab
+                            key={name}
+                            label={name}
+                            component={Link}
+                            to={this.urls[index]}
+                          />
+                      ))}
+                  </Tabs>
+                </AppBar>
                 <Route path={this.urls[1]} component={HistoryPage} />
                 <Route path={this.urls[2]} component={PhysicalCharsPage} />
                 <Route path={this.urls[3]} component={StuffPage} />
                 <Route path={this.urls[4]} component={ReferencePage} />
+                <Route exact path="/" component={Home}/>
                 <div className={classes.buttons}>
                     {value > 0 ?
                         <Button
                             variant="contained"
                             onClick={(e) => this.handleChange(e, value-1)}
                             className={classes.floatLeft}
+                            component={Link}
+                            to={this.urls[value-1]}
                         >
                             <KeyboardArrowLeft />
                             Back
@@ -156,13 +161,15 @@ class NavTabs extends React.Component {
                             color="primary"
                             onClick={(e) => this.handleChange(e, value+1)}
                             className={classes.floatRight}
+                            component={Link}
+                            to={this.urls[value+1]}
                         >
                             Next
                             <KeyboardArrowRight />
                         </Button> : null }
                   </div>
             </div>
-          </Router>
+          </HashRouter>
         </div>
         { curClass === 'historyBck' ?
         <video loop muted autoPlay poster={WaterPreview} className={classes.videoBck}>
