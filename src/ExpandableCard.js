@@ -12,6 +12,8 @@ import IconButton from '@material-ui/core/IconButton';
 import Typography from '@material-ui/core/Typography';
 import red from '@material-ui/core/colors/red';
 import ExpandMoreIcon from '@material-ui/icons/ExpandMore';
+import Button from '@material-ui/core/Button';
+
 
 const styles = theme => ({
   media: {
@@ -48,6 +50,7 @@ class ExpandableCard extends React.Component {
 
   render() {
     const { classes, content, header, image, subheader, preview } = this.props;
+    const text = this.state.expanded ? "Hide" : "Learn More"; 
 
     return (
       <Card className={classes.fullWidth}>
@@ -76,6 +79,9 @@ class ExpandableCard extends React.Component {
           >
             <ExpandMoreIcon />
           </IconButton>
+          <Button size="small" color="primary" onClick={this.handleExpandClick}>
+            {text}
+          </Button>
         </CardActions>
         <Collapse in={this.state.expanded} timeout="auto" unmountOnExit>
           <CardContent>

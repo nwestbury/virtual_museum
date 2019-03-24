@@ -5,10 +5,6 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
-import YouTube from 'react-youtube';
-
-import Card from '@material-ui/core/Card';
-import CardContent from '@material-ui/core/CardContent';
 
 const styles = theme => ({
   appBar: {
@@ -57,7 +53,7 @@ const styles = theme => ({
   },
 });
 
-class StuffPage extends React.Component {
+class FossilPage extends React.Component {
   render() {
     const { classes } = this.props;
 
@@ -69,31 +65,32 @@ class StuffPage extends React.Component {
             <Grid container spacing={24}>
                 <Grid item xs={12}>
                     <Typography component="h1" variant="h4" align="center">
-                        Bothriolepis History
+                        <i>Bothriolepis</i> Extinction
                     </Typography>
                 </Grid>
                 <Grid item sm={12} md={6}>
                   <Typography component="h3" variant="h5" align="center">
-                    <i>Bothriolepis virginiensis</i>
+                    Did climate change have an effect on it?
                   </Typography>
-                  <Typography variant="subtitle1">
-                  Bothriolepis (Greek: "pitted scale" or "trench scale") is a widespread, abundant and diverse genus of antiarch placoderms that lived during the Middle to Late Devonian period of the Paleozoic Era. Historically, Bothriolepis resided in an array of paleo-environments spread across every paleocontinent, including near shore marine and freshwater settings.[1] Most species of Bothriolepis were characterized as relatively small, benthic, freshwater detritivores (organisms that obtain nutrients by consuming decomposing plant/animal material), averaging around 30 centimetres (12 in) in length.[2] However, the largest species, B. maxima, had a carapace about 100 centimetres (39 in) in length. Although expansive with over 60 species found worldwide,[3] comparatively Bothriolepis is not unusually more diverse than most modern bottom dwelling species around today.[4]
+                  <Typography variant="subtitle1" align="left">
+                    !!!! DUNNNO !!!!
                   </Typography>
                 </Grid>
                 <Grid item sm={12} md={6} className={classes.flex}>
-                  <Card className={classes.card + ' ' + classes.flexVCenter}>
-                    <YouTube videoId="YqSUASdU0Cg" opts={{
-                        width: '100%',
-                        playerVars: {
-                            loop: 1,
-                        }
-                    }}/>
-                    <CardContent>
-                      <Typography component="p">
-                        Video simulation of Bothriolepis swimming
-                      </Typography>
-                    </CardContent>
-                  </Card>
+                  <div height={200}>
+                  </div>
+                </Grid>
+                <Grid item sm={12} md={6} className={classes.flex}>
+                  <div height={200}>
+                  </div>
+                </Grid>
+                <Grid item sm={12} md={6}>
+                  <Typography component="h3" variant="h5" align="center">
+                    Part of a specific extinction? Pattern and timing of the mass extinction
+                  </Typography>
+                  <Typography variant="subtitle1" align="left">
+                    !!! FILL THIS !!!
+                  </Typography>
                 </Grid>
             </Grid>
           </Paper>
@@ -103,8 +100,8 @@ class StuffPage extends React.Component {
   }
 }
 
-StuffPage.propTypes = {
+FossilPage.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(StuffPage);
+export default withStyles(styles)(FossilPage);

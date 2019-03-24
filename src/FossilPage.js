@@ -5,11 +5,13 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
-import YouTube from 'react-youtube';
-import Iframe from 'react-iframe';
 
+import CardMedia from '@material-ui/core/CardMedia';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
+
+import graphPie from './img/graph_pie.jpg';
+import geoanimationVideo from './img/geoanimation.mov';
 
 const styles = theme => ({
   appBar: {
@@ -58,7 +60,7 @@ const styles = theme => ({
   },
 });
 
-class Home extends React.Component {
+class FossilPage extends React.Component {
   render() {
     const { classes } = this.props;
 
@@ -69,61 +71,53 @@ class Home extends React.Component {
           <Paper className={classes.paper}>
             <Grid container spacing={24}>
                 <Grid item xs={12}>
-                    <Typography component="h1" variant="h4" align="center" color="textPrimary">
-                        Bothriolepis: Introduction
+                    <Typography component="h1" variant="h4" align="center">
+                        <i>Bothriolepis</i> Fossil
                     </Typography>
                 </Grid>
                 <Grid item sm={12} md={6}>
                   <Typography component="h3" variant="h5" align="center">
-                    What it is?
+                    Fossil Discovery
                   </Typography>
                   <Typography variant="subtitle1" align="left">
-                    <i>Bothriolepis</i> is a genus of extinct fishes that are characteristic of the middle and late Devonian period (387 million- 360 million years ago). They belong to the order Antiarcha, and the class <i>Placodermi</i>, with about hundreds of different fossil species found all around the world.
+                    The Miguasha fossil site is a Lagerstätten in eastern Québec. It was one of the first major paleontological locations to have been discovered and excavated in North America.The the first fossils to be discovered at Miguasha was made in 1842 by Abraham Gesner, the government geologist in New Brunswick. This fossil was most likely <i>Bothriolepis canadensis</i>, one of the most common fish from the Escuminac Formation (Gesner 1843).
                   </Typography>
                 </Grid>
                 <Grid item sm={12} md={6} className={classes.flex}>
                   <Card className={classes.card + ' ' + classes.flexVCenter}>
-                    <Iframe url="https://sketchfab.com/models/fd7bda03c2684c72b3016dae134a8150/embed?autostart=1&internal=1&ui_infos=0&ui_snapshots=0&ui_stop=0&ui_watermark=0"
-                    width="100%"
-                    height="450px"
-                    display="initial"
-                    position="relative"
-                    allowFullScreen/>
-                    <CardContent>
-                      <Typography component="p">
-                        Interactive 3D model of <i>Bothriolepis canadensis</i>. Scroll to zoom, click and drag to rotate.
-                      </Typography>
-                    </CardContent>
+                    <CardMedia
+                      component="img"
+                      alt="Relative distribution of escuminac fish genuses"
+                      image={graphPie}
+                      title="Relative distribution of escuminac fish genuses"
+                    />
                   </Card>
                 </Grid>
                 <Grid item sm={12} md={6} className={classes.flex}>
                   <Card className={classes.card + ' ' + classes.flexVCenter}>
-                    <YouTube videoId="YqSUASdU0Cg" opts={{
-                        width: '100%',
-                        playerVars: {
-                            loop: 1,
-                        }
-                    }}/>
+                    <video controls muted className={classes.card}>
+                      <source src={geoanimationVideo} type="video/mp4"></source>
+                    </video>
                     <CardContent>
                       <Typography component="p">
-                        Video simulation of <i>Bothriolepis</i> swimming in their deep water environment
+                        Video simulation of plate tectonics
                       </Typography>
                     </CardContent>
                   </Card>
                 </Grid>
                 <Grid item sm={12} md={6}>
                   <Typography component="h3" variant="h5" align="center">
-                    Environment (of origin and throughout time)
+                    Type of Fossil
                   </Typography>
                   <Typography variant="subtitle1" align="left">
-                    !!!!!!! WRITE SOMETHING HERE !!!!!!!
+                    <i>Bothriolepis</i> fossils are typically body fossils that are generally consist of the plates that surround its head and thorax, as well as the fins attached to the back of its skull.
                   </Typography>
                   <br />
                   <Typography component="h3" variant="h5" align="center">
-                    Paleogeography
+                    Importance of the Find
                   </Typography>
                   <Typography variant="subtitle1" align="left">
-                    The paleogeography is thought to be lacustrine, which is associated with lakes, estuarine, which is a partially enclosed coastal body with streams and lakes flowing through it, coastal marine and marine.The Miguasha biote has a large assembly of fish during that time. (Cloutier et al. 1996)
+                    The <i>Bothriolepis</i> was found to have a series of small circular bite marks which is most likely from an osteichthyan located on the surface of the shield bones. This is one of the earliest signs of predation. The flattened morphology and dorsal eye position implies that the <i>Bothriolepis</i> was a bottom dweller. <i>Bothriolepis</i>, is considered a benthivore, which is an organism that feeds on benthic prey (Moloshnikov 2008).
                   </Typography>
                 </Grid>
             </Grid>
@@ -134,8 +128,8 @@ class Home extends React.Component {
   }
 }
 
-Home.propTypes = {
+FossilPage.propTypes = {
   classes: PropTypes.object.isRequired,
 };
 
-export default withStyles(styles)(Home);
+export default withStyles(styles)(FossilPage);

@@ -11,15 +11,18 @@ import KeyboardArrowLeft from '@material-ui/icons/KeyboardArrowLeft';
 import KeyboardArrowRight from '@material-ui/icons/KeyboardArrowRight';
 
 import Home from './Home';
-import HistoryPage from './HistoryPage';
+import ImportancePage from './ImportancePage';
 import PhysicalCharsPage from './PhysicalChars';
-import StuffPage from './StuffPage';
+import FossilPage from './FossilPage';
+import ExtinctionPage from './ExtinctionPage';
 import ReferencePage from './ReferencePage';
 
 import WaterVideo from './img/water.mp4';
 import WaterPreview from './img/water.jpg';
-import BothriolepisBck from './img/Botheriolepis_bck.jpg';
+import WaterHomeVideo from './img/waterhome.mp4';
+import WaterHomePreview from './img/waterhome.mp4';
 import PoolBck from './img/pool_bck.png';
+import SandBck from './img/sand_bck.jpg';
 
 import {history} from './history';
 
@@ -46,8 +49,8 @@ const styles = theme => ({
   rightIcon: {
     marginLeft: theme.spacing.unit,
   },
-  homeBck: {
-    backgroundImage: `url(${BothriolepisBck})`,
+  extinctionBck: {
+    backgroundImage: `url(${SandBck})`,
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
@@ -66,7 +69,7 @@ const styles = theme => ({
     backgroundImage: 'linear-gradient(to bottom, #5558fc 0%,#feffff 100%)',
     backgroundPosition: 'center',
   },
-  stuffBck: {
+  fossilBck: {
     backgroundImage: `url(${PoolBck})`,
     backgroundRepeat: 'no-repeat',
     backgroundSize: 'cover',
@@ -81,14 +84,14 @@ const styles = theme => ({
   }
 });
 
-const backgroundClasses = ['homeBck', 'historyBck', 'physicalBck', 'stuffBck', 'referencesBck']
-const names = ['Home', 'Bothriolepis History', 'Physical Characteristics', 'More Stuff', 'References'];
+const backgroundClasses = ['homeBck', 'physicalBck', 'importanceBck', 'fossilBck', 'extinctionBck', 'referencesBck']
+const names = ['Introduction', 'Physical Characteristics', 'Fossil', 'Importance', 'Extinction', 'References'];
+const urls = ['/', '/physical-characteristics', '/fossil', '/paleological-importance', '/extinction', '/references'];
+const components = [Home, PhysicalCharsPage, FossilPage, ImportancePage, ExtinctionPage, ReferencePage];
 
 class NavTabs extends React.Component {
   constructor(props) {
     super(props);
-
-    this.urls = ['/', '/history', '/physical-characteristics', '/stuff', '/references'];
 
     const value = this.getValue();
     this.state = {
@@ -98,7 +101,7 @@ class NavTabs extends React.Component {
 
   getValue = () => {
     const {hash} = history.location;
-    let value = this.urls.indexOf(hash.replace('#', ''));
+    let value = urls.indexOf(hash.replace('#', ''));
 
     if (value === -1) {
         value = 0;
@@ -133,16 +136,17 @@ class NavTabs extends React.Component {
                             key={name}
                             label={name}
                             component={Link}
-                            to={this.urls[index]}
+                            to={urls[index]}
                           />
                       ))}
                   </Tabs>
                 </AppBar>
-                <Route path={this.urls[1]} component={HistoryPage} />
-                <Route path={this.urls[2]} component={PhysicalCharsPage} />
-                <Route path={this.urls[3]} component={StuffPage} />
-                <Route path={this.urls[4]} component={ReferencePage} />
-                <Route exact path="/" component={Home}/>
+                <Route path={urls[1]} component={components[1]} />
+                <Route path={urls[2]} component={components[2]} />
+                <Route path={urls[3]} component={components[3]} />
+                <Route path={urls[4]} component={components[4]} />
+                <Route path={urls[5]} component={components[5]} />
+                <Route exact path="/" component={components[0]}/>
                 <div className={classes.buttons}>
                     {value > 0 ?
                         <Button
@@ -150,19 +154,19 @@ class NavTabs extends React.Component {
                             onClick={(e) => this.handleChange(e, value-1)}
                             className={classes.floatLeft}
                             component={Link}
-                            to={this.urls[value-1]}
+                            to={urls[value-1]}
                         >
                             <KeyboardArrowLeft />
                             Back
                         </Button> : null}
-                    { value < this.urls.length - 1 ?
+                    { value < urls.length - 1 ?
                         <Button
                             variant="contained"
                             color="primary"
                             onClick={(e) => this.handleChange(e, value+1)}
                             className={classes.floatRight}
                             component={Link}
-                            to={this.urls[value+1]}
+                            to={urls[value+1]}
                         >
                             Next
                             <KeyboardArrowRight />
@@ -171,9 +175,13 @@ class NavTabs extends React.Component {
             </div>
           </HashRouter>
         </div>
-        { curClass === 'historyBck' ?
+        { curClass === 'importanceBck' ?
         <video loop muted autoPlay poster={WaterPreview} className={classes.videoBck}>
           <source src={WaterVideo} type="video/mp4"></source>
+        </video> : null }
+        { curClass === 'homeBck' ?
+        <video loop muted autoPlay poster={WaterHomePreview} className={classes.videoBck}>
+          <source src={WaterHomeVideo} type="video/mp4"></source>
         </video> : null }
       </NoSsr>
     );
