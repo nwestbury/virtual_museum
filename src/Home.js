@@ -5,11 +5,13 @@ import CssBaseline from '@material-ui/core/CssBaseline';
 import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Typography from '@material-ui/core/Typography';
-import YouTube from 'react-youtube';
 import Iframe from 'react-iframe';
 
+import CardMedia from '@material-ui/core/CardMedia';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
+
+import figure1 from './img/figure1.png';
 
 const styles = theme => ({
   appBar: {
@@ -62,6 +64,24 @@ class Home extends React.Component {
   render() {
     const { classes } = this.props;
 
+    /*
+                <Grid item sm={12} md={6} className={classes.flex}>
+                  <Card className={classes.card + ' ' + classes.flexVCenter}>
+                    <YouTube videoId="YqSUASdU0Cg" opts={{
+                        width: '100%',
+                        playerVars: {
+                            loop: 1,
+                        }
+                    }}/>
+                    <CardContent>
+                      <Typography component="p">
+                        Video simulation of <i>Bothriolepis</i> swimming in their deep water environment
+                      </Typography>
+                    </CardContent>
+                  </Card>
+                </Grid>
+    */
+
     return (
       <React.Fragment>
         <CssBaseline />
@@ -70,7 +90,7 @@ class Home extends React.Component {
             <Grid container spacing={24}>
                 <Grid item xs={12}>
                     <Typography component="h1" variant="h4" align="center" color="textPrimary">
-                        Bothriolepis: Introduction
+                        <i>Bothriolepis</i>: Introduction
                     </Typography>
                 </Grid>
                 <Grid item sm={12} md={6}>
@@ -79,6 +99,13 @@ class Home extends React.Component {
                   </Typography>
                   <Typography variant="subtitle1" align="left">
                     <i>Bothriolepis</i> is a genus of extinct fishes that are characteristic of the middle and late Devonian period (387 million- 360 million years ago). They belong to the order Antiarcha, and the class <i>Placodermi</i>, with about hundreds of different fossil species found all around the world.
+                  </Typography>
+                  <br />
+                  <Typography component="h3" variant="h5" align="center">
+                    Diet
+                  </Typography>
+                  <Typography variant="subtitle1" align="left">
+                    <i>Bothriolepis</i> were detritivores meaning they feed on decomposing organic matter. They fed on a diet of mud, microorganisms, and algae as evidenced by “carbonaceous material” and “fine muddy or silty stone usually present in the posterior alimentary tract” (Denison 1941). Based on the ventral position of the mouth, Robert Dension determined that  <i>Bothriolepis</i> was likely a bottom feeder.
                   </Typography>
                 </Grid>
                 <Grid item sm={12} md={6} className={classes.flex}>
@@ -98,15 +125,15 @@ class Home extends React.Component {
                 </Grid>
                 <Grid item sm={12} md={6} className={classes.flex}>
                   <Card className={classes.card + ' ' + classes.flexVCenter}>
-                    <YouTube videoId="YqSUASdU0Cg" opts={{
-                        width: '100%',
-                        playerVars: {
-                            loop: 1,
-                        }
-                    }}/>
+                    <CardMedia
+                      component="img"
+                      alt="Relative distribution of escuminac fish genuses"
+                      image={figure1}
+                      title="Relative distribution of escuminac fish genuses"
+                    />
                     <CardContent>
                       <Typography component="p">
-                        Video simulation of <i>Bothriolepis</i> swimming in their deep water environment
+                        Figure 1: Map of a single field site designated NV2K11, near Okse Bay on southern Ellesmere Island, Nunavut, Canada.
                       </Typography>
                     </CardContent>
                   </Card>
@@ -116,7 +143,7 @@ class Home extends React.Component {
                     Environment (of origin and throughout time)
                   </Typography>
                   <Typography variant="subtitle1" align="left">
-                    !!!!!!! WRITE SOMETHING HERE !!!!!!!
+                    In 1840, Karl Eichwald, a German geologist, physician and a naturalist introduced the name <i>Bothriolepis</i> from the Novgorod region of present-day Russia. Since its discovery, <i>Bothriolepis</i> specimens have been discovered from the lower Devonian of China, Middle Devonian of Australia and Antarctica, and Upper Devonian localities on every continent. Some of the large-bodied species of <i>Bothriolepis</i> from the Upper Devonian period are found on the Ellesmere Island in Nunavut, Canada (see figure 1). Some recent work has suggested that Bothriolepis lived in Devonian environments that are traditionally thought to be marine and freshwater environments including lagoons, rivers, deltas and coastal environments, which made it easier for them to feed on invertebrates such as crustaceans and molluscs.
                   </Typography>
                   <br />
                   <Typography component="h3" variant="h5" align="center">

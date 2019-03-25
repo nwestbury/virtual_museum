@@ -87,20 +87,26 @@ class ReferencePage extends React.Component {
                     <List>
                         <ListItem>
                             <ListItemText
-                            primary="Proceedings of the Academy of Natural Sciences of Philadelphia"
-                            secondary='Downs, J.P.; Criswell, K.E.; Daeschler, E.B. (October 2011). "Mass mortality of juvenile antiarchs (Bothriolepis sp.) from the Catskill Formation (Upper Devonian, Famennian Stage), Tioga County, Pennsylvania". Proceedings of the Academy of Natural Sciences of Philadelphia (161): 191–203.'
+                            primary="The Devonian placoderm fish Bothriolepis canadensis revisited with three-dimensional digital imagery"
+                            secondary='Bechard, I., Arsenault, F., Cloutier, R., & Kerr, J. (2014). The Devonian placoderm fish Bothriolepis canadensis revisited with three-dimensional digital imagery. Palaeontologia Electronica, 17(1).'
                             />
                         </ListItem>
                         <ListItem>
                             <ListItemText
-                            primary="Fossilized ontogenies: the contribution of placoderm ontogeny to our understanding of the evolution of early gnathostomes"
-                            secondary='Johanson, Zerina; Trinajstic, Kate (2014). "Fossilized ontogenies: the contribution of placoderm ontogeny to our understanding of the evolution of early gnathostomes". Palaeontology. 57 (3): 505–516. doi:10.1111/pala.12093'
+                            primary="A new large-bodied species of Bothriolepis (Antiarchi) from the Upper Devonian of Ellesmere Island, Nunavut, Canada"
+                            secondary='Downs, J., Daeschler, E., Garcia, V., & Shubin, N. (2016). A new large-bodied species of Bothriolepis (Antiarchi) from the Upper Devonian of Ellesmere Island, Nunavut, Canada. A new large-bodied species of Bothriolepis (Antiarchi) from the Upper Devonian of Ellesmere Island, Nunavut, Canada, 36(6), 1937-2809. http://dx.doi.org/10.1080/02724634.2016.1221833'
                             />
                         </ListItem>
                         <ListItem>
                             <ListItemText
-                            primary="Proceedings of the Academy of Natural Sciences of Philadelphia"
-                            secondary='Downs, J.P.; Criswell, K.E.; Daeschler, E.B. (October 2011). "Mass mortality of juvenile antiarchs (Bothriolepis sp.) from the Catskill Formation (Upper Devonian, Famennian Stage), Tioga County, Pennsylvania". Proceedings of the Academy of Natural Sciences of Philadelphia (161): 191–203.'
+                            primary="The soft anatomy of Bothriolepis. Journal of Paleontology"
+                            secondary='Denison, R.H. 1941. The soft anatomy of Bothriolepis. Journal of Paleontology. 15 (5): 553–561.'
+                            />
+                        </ListItem>
+                        <ListItem>
+                            <ListItemText
+                            primary="The Upper Devonian Fish Bothriolepis (Placodermi: Antiarchi) from near Canowindra"
+                            secondary='Johanson, Z. (1998). The Upper Devonian Fish Bothriolepis (Placodermi: Antiarchi) from near Canowindra, New South Wales, Australia. AUSTRALIAN MUSEUM SCIENTIFIC PUBLICATIONS, 50(3), 315-348. https://doi.org/10.3853/j.0067-1975.50.1998.1289'
                             />
                         </ListItem>
                         <ListItem>
@@ -130,6 +136,12 @@ class ReferencePage extends React.Component {
                             <ListItemText
                             primary="The placoderm Plourdosteus livonicus (Eastman) in the Early Frasnian of the Central Devon-ian Field and the trophic structure of the Mikhailovskii fish assemblage"
                             secondary='Moloshnikov, S.V. (2008). The placoderm Plourdosteus livonicus (Eastman) in the Early Frasnian of the Central Devon-ian Field and the trophic structure of the Mikhailovskii fish assemblage: Paleontological Journal, v. 42, p. 607–614.'
+                            />
+                        </ListItem>
+                        <ListItem>
+                            <ListItemText
+                            primary="Tectonic context [Video file]"
+                            secondary='Sage-animation.ca. (n.d.). Tectonic context [Video file]. Retrieved from http://www.miguasha.ca/mig-en/tectonic_context.php'
                             />
                         </ListItem>
                     </List>
@@ -208,6 +220,89 @@ class ReferencePage extends React.Component {
                             secondary='Peters, S. (2015). Geo-timescale Github [Digital codebase]. Retrieved from https://github.com/UW-Macrostrat/geo-timescale'
                             />
                         </ListItem>
+                    </List>
+                    <Typography component="h1" variant="h6" align="left">
+                      Extinction Page
+                    </Typography>
+                    <List>
+                      <ListItem>
+                          <ListItemText
+                          primary="Devonian Period: Climate, Animals & Plants"
+                          secondary='Bagley, M. (2014). Devonian Period: Climate, Animals & Plants. Live Science. Retrieved March 23rd, 2019, from https://www.livescience.com/43596-devonian-period.html.'
+                          />
+                      </ListItem>
+                      <ListItem>
+                          <ListItemText
+                          primary="Introduction to Paleobiology and the Fossil Record"
+                          secondary='Benton, M., J., & Harper, D., A., T. (2009). Introduction to Paleobiology and the Fossil Record. Wiley-Blackwell.'
+                          />
+                      </ListItem>
+                      <ListItem>
+                          <ListItemText
+                          primary="Rock Salt"
+                          secondary='Geoglogy.com. (2019). Rock Salt. Retrieved March 23rd, 2019, from https://geology.com/rocks/rock-salt.shtml.'
+                          />
+                      </ListItem>
+                      <ListItem>
+                          <ListItemText
+                          primary="Tillites"
+                          secondary='Illinois State Geological Survey. (2019). Tillites. Retrieved March 23rd, 2019, from https://www.isgs.illinois.edu/outreach/geology-resources/tillites.'
+                          />
+                      </ListItem>
+                      <ListItem>
+                          <ListItemText
+                          primary="A Devonian day"
+                          secondary='Miguasha National Park. (2007). A Devonian day. Retrieved March 23rd, 2019, from http://www.miguasha.ca/mig-en/a_devonian_day.php.'
+                          />
+                      </ListItem>
+                      <ListItem>
+                          <ListItemText
+                          primary="Climate"
+                          secondary='Miguasha National Park. (2007). Climate. Retrieved March 23rd, 2019, from http://www.miguasha.ca/mig-en/climate.php.'
+                          />
+                      </ListItem>
+                      <ListItem>
+                          <ListItemText
+                          primary="The Devonian: Age of Fishes"
+                          secondary='Miguasha National Park. (2007). The Devonian: Age of Fishes. Retrieved March 23rd, 2019, from http://www.miguasha.ca/mig-en/the_devonian_age_of_fishes.php.'
+                          />
+                      </ListItem>
+                      <ListItem>
+                          <ListItemText
+                          primary="Limestone"
+                          secondary='Minerals Education Coalition. (2019). Limestone. Retrieved March 23rd, 2019, from https://mineralseducationcoalition.org/minerals-database/limestone/.'
+                          />
+                      </ListItem>
+                      <ListItem>
+                          <ListItemText
+                          primary="What Is Climate Change?"
+                          secondary='NASA. (2017). What Is Climate Change?. Retrieved March 23rd, 2019, from https://www.nasa.gov/audience/forstudents/k-4/stories/nasa-knows/what-is-climate-change-k4.html.'
+                          />
+                      </ListItem>
+                      <ListItem>
+                          <ListItemText
+                          primary="National Geographic: Climate"
+                          secondary='National Geographic. (2019). Climate. Retrieved March 23rd, 2019, from https://www.nationalgeographic.org/encyclopedia/climate/.'
+                          />
+                      </ListItem>
+                      <ListItem>
+                          <ListItemText
+                          primary="Devonian Period: Climate, Animals & Plants"
+                          secondary='Paleontology World. (2017). Devonian Period: Climate, Animals & Plants. Retrieved March 23rd, 2019, from https://paleontologyworld.com/exploring-prehistoric-life-prehistoric-flora-fauna/devonian-period-climate-animals-plants.'
+                          />
+                      </ListItem>
+                      <ListItem>
+                          <ListItemText
+                          primary="From the Cambrian Explosion to the Great Dying"
+                          secondary='PBS Eons. (2018, February 20th). From the Cambrian Explosion to the Great Dying. [Youtube] Retrieved March 23rd, 2019, from https://www.youtube.com/watch?v=RDQa0okkpf0.'
+                          />
+                      </ListItem>
+                      <ListItem>
+                          <ListItemText
+                          primary="Dropstones"
+                          secondary='SERC- Carleton College. (2016). Dropstones. Retrieved March 23rd, 2019, from https://serc.carleton.edu/NAGTWorkshops/sedimentary/images/dropstones.html.'
+                          />
+                      </ListItem>
                     </List>
                 </Grid>
             </Grid>

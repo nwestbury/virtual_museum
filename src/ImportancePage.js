@@ -83,11 +83,9 @@ class HistoryPage extends React.Component {
                   </Typography>
                   <br></br>
                   <Typography variant="subtitle1" align="left">
-                    Bothriolepis is one of the earliest known genuses in the Placodermi, a class of armoured fish and is an important piece in their evolutionary history. Like other Placeodermi, it thrived during the Devonian known as the “Age of the Fish”. It is an important index fossil and also opens questions about the origin of terrestrial life.
+                    <i>Bothriolepis</i> is one of the earliest known genuses in the <i>Placodermi</i>, a class of armoured fish and is an important piece in their evolutionary history. Like other <i>Placeodermi</i>, it thrived during the Devonian known as the “Age of the Fish”. It is an important index fossil and also opens questions about the origin of terrestrial life.
                     <br/><br/>
-                    Three characteristics, its wide species diversity, wide distribution, and short existence, make it an important biostratigraphic and index fossil. Its relatively short geological existence, roughly 50 millions years between 400 Ma and 350 Ma, help narrow down its fossils to the Middle and Upper Devonian epochs. Even better, Bothriolepis has more than 60 known species (Young 2010) with certain species allowing for further specificity into the Frasnian (372.2 Ma-382.7 Ma) and Famennian (358.9 Ma-372.2 Ma) stages (Lukševič 2001). For example, the Bothriolepis cierere was primarily present during the Famennian stage (Lukševič 2001).
-                    <br/><br/>
-                    It was geographically widespread meaning it can be used by paleontologists worldwide. In certain geographical areas, such as the Baltic region or north-western Russia, the species can be used to correlate stages within the Upper Devonian epoch based on deposits. The majority of Bothriolepis are found in freshwater river and lakes but some species are in marine conditions allowing a wide distribution.
+                    Three characteristics, its wide species diversity, wide distribution, and short existence, make it an important biostratigraphic and index fossil. Its relatively short geological existence, roughly 50 millions years between 400 Ma and 350 Ma, help narrow down its fossils to the Middle and Upper Devonian epochs. Even better, <i>Bothriolepis</i> has more than 60 known species (Young 2010) with certain species allowing for further specificity into the Frasnian (372.2 Ma-382.7 Ma) and Famennian (358.9 Ma-372.2 Ma) stages (Lukševič 2001). For example, the <i>Bothriolepis cierere</i> was primarily present during the Famennian stage (Lukševič 2001). It was geographically widespread meaning it can be used by paleontologists worldwide.
                   </Typography>
                 </Grid>
                 <Grid item sm={12} md={6} className={classes.flex}>
@@ -121,7 +119,7 @@ class HistoryPage extends React.Component {
                   </Typography>
                   <br></br>
                   <Typography variant="subtitle1" align="left">
-                    Wells and Door (1985) suggested that Bothriolepis could have been partly terrestrial. They point to three key pieces of evidence: armor could support their body on land, jointed pectorals allow the fish to move on land, and their sac-like structures would be able to breath air. Studying Bothriolepis allows to better understand the conditions that led to terrestrial life starting in the early Carboniferous period, one of the key events in Earth’s history.
+                    Wells and Door (1985) suggested that <i>Bothriolepis</i> could have been partly terrestrial. They point to three key pieces of evidence: armor could support their body on land, jointed pectorals allow the fish to move on land, and their sac-like structures would be able to breath air. Studying <i>Bothriolepis</i> allows to better understand the conditions that led to terrestrial life starting in the early Carboniferous period, one of the key events in Earth’s history.
                   </Typography>
                 </Grid>
             </Grid>
