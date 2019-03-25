@@ -21,6 +21,7 @@ import temptable from './img/temptable.png';
 import devonian_climate from './img/devonian_climate.png';
 import geomap from './img/geomap.png';
 import temp_graph from './img/temp_graph.png';
+import rip from './img/rip.png';
 
 
 const styles = theme => ({
@@ -291,6 +292,33 @@ class FossilPage extends React.Component {
                       </Typography>
                       <Typography component="p">
                         During the Devonian period the <i>Bothriolepis canadensis</i> had days that were only 22 hours long and a Devonian year that had 400 days. The rotation speed of the planet changes over time due to the gravitational pull of the Moon (Benton & Harper, 2009; Miguasha National Park, 2007).
+                      </Typography>
+                    </CardContent>
+                  </Card>
+                </Grid>
+                <Grid item sm={12} md={6}>
+                  <Typography component="h3" variant="h5" align="center">
+                    Extinction
+                  </Typography>
+                  <Typography variant="subtitle1" align="left">
+                    Fossils provide the key evidence that no species will last forever (Benton & Harper, 2009). Fossils are proof that extinction is a normal phenomenon and without the fossil record we might be led to believe that extinctions have been caused mostly by human interactions (Benton & Harper, 2009). However, there is strong evidence that climate and environmental changes and extraterrestrial impacts have caused extinction events in the past (Benton & Harper, 2009).
+                  </Typography>
+                  <br />
+                  <Typography variant="subtitle1" align="left">
+                    The first person to mention the idea of extinction is Robert Hooke during the 18th century, but it was George Cuvier who demonstrated the phenomenon (Benton & Harper, 2009). Extinction occurs all the time with species having a normal length of time of a few thousand years to a few million before they disappear (Benton & Harper, 2009). This means there is a background extinction rate that is occurring without any large-scale causes (Benton & Harper, 2009). Possibly five to ten percent of species may go extinct every million years (Benton & Harper, 2009). However, it is mass extinctions that capture the fascinations of scientists and the public because they are times that represent powerful catastrophes (Benton & Harper, 2009). 
+                  </Typography>
+                </Grid>
+                <Grid item sm={12} md={6} className={classes.flex}>
+                  <Card className={classes.flexVCenter}>
+                    <CardMedia
+                      component="img"
+                      alt="Extinction graveyard"
+                      image={rip}
+                      title="Extinction graveyard"
+                    />
+                    <CardContent>
+                      <Typography component="p">
+                        Figure 8. Grave stones of animals that went extinct (BrainPOP, 2019).
                       </Typography>
                     </CardContent>
                   </Card>

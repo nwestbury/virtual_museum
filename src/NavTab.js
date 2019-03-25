@@ -85,7 +85,7 @@ const styles = theme => ({
 });
 
 const backgroundClasses = ['homeBck', 'physicalBck', 'importanceBck', 'fossilBck', 'extinctionBck', 'referencesBck']
-const names = ['Introduction', 'Physical Characteristics', 'Fossil', 'Importance', 'Extinction', 'References'];
+const names = ['Introduction', 'Physical Characteristics', 'Fossil', 'Importance', 'Climate & Extinction', 'References'];
 const urls = ['/', '/physical-characteristics', '/fossil', '/paleological-importance', '/extinction', '/references'];
 const components = [Home, PhysicalCharsPage, FossilPage, ImportancePage, ExtinctionPage, ReferencePage];
 
