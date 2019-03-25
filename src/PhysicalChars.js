@@ -72,17 +72,17 @@ class HistoryPage extends React.Component {
             <Grid container spacing={24} alignContent="center"> 
                 <Grid item xs={12} >
                     <Typography component="h1" variant="h4">
-                        Bothriolepis Physical Characteristics
+                        <i>Bothriolepis</i> Physical Characteristics
                     </Typography>
                 </Grid>
                 <Grid item sm={12}>
                   <Typography variant="subtitle1" align="left">
-                    The Bothriolepis was not a very large fish of the Devonian period (Thayer, 2009). This placoderm had very interesting features given that it could reside in both aquatic and terrestrial environments (Thayer, 2009). Certain scientists believed that this ability was largely owing to organs that resembled lungs in these fishes (Denison, 1941). These organs, given that they were soft tissue and usually unlikely to preserve, were impacted by sediment which aided the preservation of the internal organs by a process that Robert Denison outlines in The soft Anatomy of Bothriolepis as differential filling; where in, because the internal organs have some connection to the external environment could be layered with sediment and therefore better preserved.  What was also very important about these creatures was that they had armor or a casing around them, which likely protected them from predators (Thayer, 2009). 
+                    The <i>Bothriolepis</i> was not a very large fish of the Devonian period (Thayer, 2009). This placoderm had very interesting features given that it could reside in both aquatic and terrestrial environments (Thayer, 2009). Certain scientists believed that this ability was largely owing to organs that resembled lungs in these fishes (Denison, 1941). These organs, given that they were soft tissue and usually unlikely to preserve, were impacted by sediment which aided the preservation of the internal organs by a process that Robert Denison outlines in <i>The soft Anatomy of Bothriolepis</i> as differential filling; where in, because the internal organs have some connection to the external environment could be layered with sediment and therefore better preserved.  What was also very important about these creatures was that they had armor or a casing around them, which likely protected them from predators (Thayer, 2009). 
                   </Typography>
                 </Grid>
                 <Grid item sm={12}>
                   <Typography component="h6" variant="h6">
-                    Click on the arrows to learn more about different Bothriolepis body characteristics!
+                    Click on the arrows to learn more about different <i>Bothriolepis</i> body characteristics!
                   </Typography>
                 </Grid>
                 <Grid item sm={12} md={6}>
@@ -109,7 +109,7 @@ class HistoryPage extends React.Component {
                   content={
                     <React.Fragment>
                         <Typography paragraph align="left">
-                          Even though Bothriolepis was one of the earlier species to possess a jaw, it fed mostly in a fashion that did not require immense engagement of the jaw for chewing (Thayer, 2009). The upper and lower portions of the jaw are paired and the mandible and maxilla have their own separate halves. It is proposed that the maxillae and the mandible of the Bothriolepis would work synergistically in manipulating the food that was eaten (Patten, 1904).
+                          Even though <i>Bothriolepis</i> was one of the earlier species to possess a jaw, it fed mostly in a fashion that did not require immense engagement of the jaw for chewing (Thayer, 2009). The upper and lower portions of the jaw are paired and the mandible and maxilla have their own separate halves. It is proposed that the maxillae and the mandible of the <i>Bothriolepis</i> would work synergistically in manipulating the food that was eaten (Patten, 1904).
                         </Typography>
                     </React.Fragment>
                   }
@@ -124,7 +124,7 @@ class HistoryPage extends React.Component {
                     content={
                         <React.Fragment>
                             <Typography paragraph align="left">
-                              Bothriolepis did not have a very large body; it did have armor over the head and central portions of its body (Béchard et al., 2014). Though Bothriolepis might not have had traditional scales like other fish, the skin of its body was actually quite strong and its armor is what provides it with protection from predation (Patten, 1904). The underside of Bothriolepis has an interestingly circular plate that covers the aperture to its cloaca (Patten, 1904). Having the cloaca farther up was not an issue for this fish since the excretion was removed in the posterior end and was aided by the water current (Patten, 1904).
+                              Bothriolepis did not have a very large body; it did have armor over the head and central portions of its body (Béchard et al., 2014). Though <i>Bothriolepis</i> might not have had traditional scales like other fish, the skin of its body was actually quite strong and its armor is what provides it with protection from predation (Patten, 1904). The underside of <i>Bothriolepis</i> has an interestingly circular plate that covers the aperture to its cloaca (Patten, 1904). Having the cloaca farther up was not an issue for this fish since the excretion was removed in the posterior end and was aided by the water current (Patten, 1904).
                             </Typography>
                         </React.Fragment>
                     }
@@ -139,7 +139,7 @@ class HistoryPage extends React.Component {
                     content={
                         <React.Fragment>
                             <Typography paragraph align="left">
-                              Bothrioleps possessed two protected pectoral fins, which allowed a fair array of motion; as well as a dorsal and caudal fin which were part of the softer portions of the fish and where the armor did not extend to, as this may have further restricted its movements (Béchard et al., 2014). The caudal fin was slender and longer likely to aid in swimming; it was the major fin involved in swimming while the dorsal and pectoral fins were more for stabilization and driving  (Béchard et al., 2014; Patten, 1904). In terms of motility, the caudal fin would propel the fish forward through side-to-side movements and the motion has been compared to that of a boxfish, which has ostraciiform locomotion (Béchard et al., 2014). Scientists also had reason to believe that these fishes may have used their pectoral fins, which had some level of articulation, to allow them to wriggle onto land, as well as burrow into wet mud (Thayer, 2009).  
+                              <i>Bothrioleps</i> possessed two protected pectoral fins, which allowed a fair array of motion; as well as a dorsal and caudal fin which were part of the softer portions of the fish and where the armor did not extend to, as this may have further restricted its movements (Béchard et al., 2014). The caudal fin was slender and longer likely to aid in swimming; it was the major fin involved in swimming while the dorsal and pectoral fins were more for stabilization and driving  (Béchard et al., 2014; Patten, 1904). In terms of motility, the caudal fin would propel the fish forward through side-to-side movements and the motion has been compared to that of a boxfish, which has ostraciiform locomotion (Béchard et al., 2014). Scientists also had reason to believe that these fishes may have used their pectoral fins, which had some level of articulation, to allow them to wriggle onto land, as well as burrow into wet mud (Thayer, 2009).  
                             </Typography>
                         </React.Fragment>
                     }
