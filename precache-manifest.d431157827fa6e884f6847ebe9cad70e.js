@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/static/media/rock1.55b8e899.png"
   },
   {
-    "revision": "552dd0341b515136f0ce",
-    "url": "/static/css/main.c06a5ff6.chunk.css"
+    "revision": "bac646ff57d38aae8411",
+    "url": "/static/css/main.1dc015cd.chunk.css"
   },
   {
-    "revision": "5e63076d88390b70b8bb",
-    "url": "/static/js/1.5e63076d.chunk.js"
+    "revision": "a85636b2d192626758f8",
+    "url": "/static/js/1.a85636b2.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -52,8 +52,8 @@ self.__precacheManifest = [
     "url": "/static/media/geoanimation.5ca9fb8e.mov"
   },
   {
-    "revision": "552dd0341b515136f0ce",
-    "url": "/static/js/main.552dd034.chunk.js"
+    "revision": "bac646ff57d38aae8411",
+    "url": "/static/js/main.bac646ff.chunk.js"
   },
   {
     "revision": "b41f1ed3388b327aec11b677b14bd1c0",
@@ -84,6 +84,10 @@ self.__precacheManifest = [
     "url": "/static/media/temp_graph.fd469989.png"
   },
   {
+    "revision": "166969a71d5f579eb4b2e26ab1377cb8",
+    "url": "/static/media/rip.166969a7.png"
+  },
+  {
     "revision": "4cdda2bb17e3aee22c8e4a82a1cdb610",
     "url": "/static/media/water.4cdda2bb.mp4"
   },
@@ -100,7 +104,7 @@ self.__precacheManifest = [
     "url": "/static/media/sand_bck.8b07c240.jpg"
   },
   {
-    "revision": "1e05ea9a488cfdae1a9ec2a1e6c67950",
+    "revision": "6749222d3d591289244040d4c462e5b2",
     "url": "/index.html"
   }
 ];
