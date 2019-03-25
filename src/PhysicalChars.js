@@ -89,7 +89,11 @@ class HistoryPage extends React.Component {
                     <ExpandableCard 
                     header="Head"
                     subheader=""
-                    preview="Bothriolepis had a uniquely shaped head with closely placed ventral eyes"
+                    preview={
+                      <Typography paragraph align="left">
+                        <i>Bothrioleps</i> had a uniquely shaped head with closely placed ventral eyes
+                      </Typography>
+                    }
                     image={HeadImage}
                     content={
                         <React.Fragment>
@@ -104,7 +108,11 @@ class HistoryPage extends React.Component {
                   <ExpandableCard
                   header="Jaw"
                   subheader=""
-                  preview="Bothriolepis had a jaw with two functionally independent halves"
+                  preview={
+                    <Typography paragraph align="left">
+                      <i>Bothrioleps</i> had a jaw with two functionally independent halves
+                    </Typography>
+                  }
                   image={JawImage}
                   content={
                     <React.Fragment>
@@ -119,12 +127,16 @@ class HistoryPage extends React.Component {
                     <ExpandableCard
                     header="Trunk"
                     subheader=""
-                    preview="Bothriolepis used its small armor trunk as protection against predators"
+                    preview={
+                      <Typography paragraph align="left">
+                        <i>Bothrioleps</i> used its small armor trunk as protection against predators
+                      </Typography>
+                    }
                     image={TrunkImage}
                     content={
                         <React.Fragment>
                             <Typography paragraph align="left">
-                              Bothriolepis did not have a very large body; it did have armor over the head and central portions of its body (Béchard et al., 2014). Though <i>Bothriolepis</i> might not have had traditional scales like other fish, the skin of its body was actually quite strong and its armor is what provides it with protection from predation (Patten, 1904). The underside of <i>Bothriolepis</i> has an interestingly circular plate that covers the aperture to its cloaca (Patten, 1904). Having the cloaca farther up was not an issue for this fish since the excretion was removed in the posterior end and was aided by the water current (Patten, 1904).
+                              <i>Bothriolepis</i> did not have a very large body; it did have armor over the head and central portions of its body (Béchard et al., 2014). Though <i>Bothriolepis</i> might not have had traditional scales like other fish, the skin of its body was actually quite strong and its armor is what provides it with protection from predation (Patten, 1904). The underside of <i>Bothriolepis</i> has an interestingly circular plate that covers the aperture to its cloaca (Patten, 1904). Having the cloaca farther up was not an issue for this fish since the excretion was removed in the posterior end and was aided by the water current (Patten, 1904).
                             </Typography>
                         </React.Fragment>
                     }
@@ -134,7 +146,11 @@ class HistoryPage extends React.Component {
                     <ExpandableCard
                     header="Tail/ Fins/ Motility"
                     subheader=""
-                    preview="Bothriolepis' tail and fins allowed it to navigate with ease"
+                    preview={
+                      <Typography paragraph align="left">
+                        <i>Bothrioleps</i>' tail and fins allowed it to navigate with ease
+                      </Typography>
+                    }
                     image={FinsImage}
                     content={
                         <React.Fragment>
