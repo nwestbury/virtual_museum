@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/rock1.55b8e899.png"
   },
   {
-    "revision": "7d9106fed12e1e9b336a",
+    "revision": "5359b1a26035290725c2",
     "url": "/static/css/main.c06a5ff6.chunk.css"
   },
   {
@@ -52,8 +52,8 @@ self.__precacheManifest = [
     "url": "/static/media/geoanimation.5ca9fb8e.mov"
   },
   {
-    "revision": "7d9106fed12e1e9b336a",
-    "url": "/static/js/main.7d9106fe.chunk.js"
+    "revision": "5359b1a26035290725c2",
+    "url": "/static/js/main.5359b1a2.chunk.js"
   },
   {
     "revision": "b41f1ed3388b327aec11b677b14bd1c0",
@@ -100,7 +100,7 @@ self.__precacheManifest = [
     "url": "/static/media/sand_bck.8b07c240.jpg"
   },
   {
-    "revision": "09ba19738b96345482ee47be358c64da",
+    "revision": "3d472cc023d07a9058da51bf4a2a8a76",
     "url": "/index.html"
   }
 ];
