@@ -108,7 +108,7 @@ class ReferencePage extends React.Component {
                             }
                             secondary={
                                 <React.Fragment>
-                                Bechard, I., Arsenault, F., Cloutier, R., & Kerr, J. (2014). <i>The Devonian placoderm fish Bothriolepis canadensis revisited with three-dimensional digital imagery. Palaeontologia Electronica, 17(1)</i>.'
+                                Bechard, I., Arsenault, F., Cloutier, R., & Kerr, J. (2014). <i>The Devonian placoderm fish Bothriolepis canadensis revisited with three-dimensional digital imagery. Palaeontologia Electronica, 17</i>(1).'
                                 </React.Fragment>
                             }
                             />
@@ -134,13 +134,13 @@ class ReferencePage extends React.Component {
                         <ListItem>
                             <ListItemText
                             primary={<i>A new large-bodied species of Bothriolepis (Antiarchi) from the Upper Devonian of Ellesmere Island, Nunavut, Canada</i>}
-                            secondary={<React.Fragment>Downs, J., Daeschler, E., Garcia, V., & Shubin, N. (2016). <i>A new large-bodied species of Bothriolepis (Antiarchi) from the Upper Devonian of Ellesmere Island, Nunavut, Canada.</i>, 36(6), 1937-2809. http://dx.doi.org/10.1080/02724634.2016.1221833</React.Fragment>}
+                            secondary={<React.Fragment>Downs, J., Daeschler, E., Garcia, V., & Shubin, N. (2016). <i>A new large-bodied species of Bothriolepis (Antiarchi) from the Upper Devonian of Ellesmere Island, Nunavut, Canada, 36</i>(6), 1937-2809. http://dx.doi.org/10.1080/02724634.2016.1221833</React.Fragment>}
                             />
                         </ListItem>
                         <ListItem>
                             <ListItemText
                             primary={<i>The Upper Devonian Fish Bothriolepis (Placodermi: Antiarchi) from near Canowindra</i>}
-                            secondary={<React.Fragment>Johanson, Z. (1998). <i>The Upper Devonian Fish Bothriolepis (Placodermi: Antiarchi) from near Canowindra, New South Wales, Australia. AUSTRALIAN MUSEUM SCIENTIFIC PUBLICATIONS</i>, 50(3), 315-348. https://doi.org/10.3853/j.0067-1975.50.1998.1289</React.Fragment>}
+                            secondary={<React.Fragment>Johanson, Z. (1998). <i>The Upper Devonian Fish Bothriolepis (Placodermi: Antiarchi) from near Canowindra, New South Wales, Australia. AUSTRALIAN MUSEUM SCIENTIFIC PUBLICATIONS, 50</i>(3), 315-348. https://doi.org/10.3853/j.0067-1975.50.1998.1289</React.Fragment>}
                             />
                         </ListItem>
                     </List>
@@ -186,7 +186,7 @@ class ReferencePage extends React.Component {
                         <ListItem>
                             <ListItemText
                             primary={<React.Fragment><i>The Devonian placoderm fish Bothriolepis canadensis revisited with three-dimensional digital imagery</i></React.Fragment>}
-                            secondary={<React.Fragment>Béchard, I., Arsenault, F., Cloutier, R., & Kerr, J. (2014). <i>The Devonian placoderm fish Bothriolepis canadensis revisited with three-dimensional digital imagery. Palaeontologia Electronica, 17(1)</i>, 1-19.</React.Fragment>}
+                            secondary={<React.Fragment>Béchard, I., Arsenault, F., Cloutier, R., & Kerr, J. (2014). <i>The Devonian placoderm fish Bothriolepis canadensis revisited with three-dimensional digital imagery. Palaeontologia Electronica, 17</i>(1), 1-19.</React.Fragment>}
                             />
                         </ListItem>
                         <ListItem>
@@ -204,7 +204,7 @@ class ReferencePage extends React.Component {
                         <ListItem>
                             <ListItemText
                             primary={<React.Fragment><i>New facts concerning Bothriolepis</i></React.Fragment>}
-                            secondary={<React.Fragment>Patten, W. (1904). <i>New facts concerning Bothriolepis. The Biological Bulletin, 7(2)</i>, 113-124.</React.Fragment>}
+                            secondary={<React.Fragment>Patten, W. (1904). <i>New facts concerning Bothriolepis. The Biological Bulletin, 7</i>(2), 113-124.</React.Fragment>}
                             />
                         </ListItem>
                         <ListItem>
@@ -227,7 +227,7 @@ class ReferencePage extends React.Component {
                         <ListItem>
                             <ListItemText
                             primary={<React.Fragment><i>Bothriolepid antiarchs (Vertebrata, Placodermi) from the Devonian of the north-western part of the East European Platform</i></React.Fragment>}
-                            secondary={<React.Fragment>Lukševič E. (2001). <i>Bothriolepid antiarchs (Vertebrata, Placodermi) from the Devonian of the north-western part of the East European Platform. Geodiversitas 23 (4)</i>: 489-609.</React.Fragment>}
+                            secondary={<React.Fragment>Lukševič E. (2001). <i>Bothriolepid antiarchs (Vertebrata, Placodermi) from the Devonian of the north-western part of the East European Platform. Geodiversitas 23</i>(4): 489-609.</React.Fragment>}
                             />
                         </ListItem>
                         <ListItem>
@@ -261,8 +261,8 @@ class ReferencePage extends React.Component {
                     <List>
                       <ListItem>
                           <ListItemText
-                          primary={<React.Fragment><i>Devonian Period: Climate, Animals & Plants</i></React.Fragment>}
-                          secondary={<React.Fragment>Bagley, M. (2014). <i>Devonian Period: Climate, Animals & Plants. Live Science.</i> Retrieved March 23rd, 2019, from https://www.livescience.com/43596-devonian-period.html.</React.Fragment>}
+                          primary={<React.Fragment>Devonian Period: Climate, Animals & Plants</React.Fragment>}
+                          secondary={<React.Fragment>Bagley, M. (2014). Devonian Period: Climate, Animals & Plants. <i>Live Science.</i> Retrieved March 23rd, 2019, from https://www.livescience.com/43596-devonian-period.html.</React.Fragment>}
                           />
                       </ListItem>
                       <ListItem>
@@ -350,14 +350,14 @@ class ReferencePage extends React.Component {
                         </ListItem>
                         <ListItem>
                             <ListItemText
-                            primary={<React.Fragment><i>Devonian Period: Climate, Animals & Plants</i></React.Fragment>}
-                            secondary={<React.Fragment>Bagley, M. (2014). <i>Devonian Period: Climate, Animals & Plants. Live Science.</i> Retrieved March 23rd, 2019, from https://www.livescience.com/43596-devonian-period.html.</React.Fragment>}
+                            primary={<React.Fragment>Devonian Period: Climate, Animals & Plants</React.Fragment>}
+                            secondary={<React.Fragment>Bagley, M. (2014). Devonian Period: Climate, Animals & Plants. <i>Live Science.</i> Retrieved March 23rd, 2019, from https://www.livescience.com/43596-devonian-period.html.</React.Fragment>}
                             />
                         </ListItem>
                         <ListItem>
                             <ListItemText
-                            primary={<React.Fragment><i>The Devonian extinction saw the oceans choke to death</i></React.Fragment>}
-                            secondary={<React.Fragment>Baraniuk, C. (2015). <i>The Devonian extinction saw the oceans choke to death. BBC.</i> Retrieved March 24th, 2019, from http://www.bbc.com/earth/story/20150624-the-day-the-oceans-died.</React.Fragment>}
+                            primary={<React.Fragment>The Devonian extinction saw the oceans choke to death</React.Fragment>}
+                            secondary={<React.Fragment>Baraniuk, C. (2015). The Devonian extinction saw the oceans choke to death. <i>BBC.</i> Retrieved March 24th, 2019, from http://www.bbc.com/earth/story/20150624-the-day-the-oceans-died.</React.Fragment>}
                             />
                         </ListItem>
                         <ListItem>
@@ -374,8 +374,8 @@ class ReferencePage extends React.Component {
                         </ListItem>
                         <ListItem>
                             <ListItemText
-                            primary={<React.Fragment><i>Devonian climate change, breathing, and the origin of the tetrapod stem group</i></React.Fragment>}
-                            secondary={<React.Fragment>Clack, J. A. (2007). <i>Devonian climate change, breathing, and the origin of the tetrapod stem group. Integrative and Comparative Biology, 47(4)</i>, 510-523.</React.Fragment>}
+                            primary={<React.Fragment>Devonian climate change, breathing, and the origin of the tetrapod stem group</React.Fragment>}
+                            secondary={<React.Fragment>Clack, J. A. (2007). Devonian climate change, breathing, and the origin of the tetrapod stem group. <i>Integrative and Comparative Biology, 47</i>(4), 510-523.</React.Fragment>}
                             />
                         </ListItem>
                         <ListItem>

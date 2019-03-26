@@ -88,7 +88,7 @@ class FossilPage extends React.Component {
                       <Typography component="h3" variant="h5" align="center">
                         Fun Fact: Tortise or Fish?
                       </Typography>
-                      <Typography component="p">
+                      <Typography component="p" variant="subtitle1">
                         Bothriolepis was the first fossil vertebrate mentioned by Abraham Gesner, a Canadian physician and a geologist in his 1842 when he first discovered the Miguasha site. He confused the species with a tortoise because it consists of robust plates that surround its head and thorax.
                       </Typography>
                     </CardContent>
@@ -136,7 +136,7 @@ class FossilPage extends React.Component {
                       <Typography component="h3" variant="h5" align="center">
                         Fun Fact: Fossilized Mass Grave
                       </Typography>
-                      <Typography component="p">
+                      <Typography component="p" variant="subtitle1">
                         At the beginning of the 20th Century, William Pattern, an American Paleontologist discovered a bed of very rich <i>Bothriolepis</i> specimens which were all facing in the same direction. It is considered to be an excellent example of a snapshot in time because a large amount of fish population was captured momentarily fighting a fatal current. This allowed paleontologists to trace the position of the animal’s main internal cavities, from the pharyngeal cavity in the head to the intestinal system.
                       </Typography>
                     </CardContent>

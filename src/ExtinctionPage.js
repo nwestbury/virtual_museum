@@ -179,7 +179,7 @@ class FossilPage extends React.Component {
                           <Typography component="h3" variant="h5" align="center">
                             Fun Fact: Did you Know?
                           </Typography>
-                          <Typography component="p">
+                          <Typography component="p" variant="subtitle1">
                             It is still being debated that we could be experiencing a sixth mass extinction (Benton & Harper, 2009). With the increasing human population and increasing pressure on the environment plants and animals are dying at faster rates than times in the past (Benton & Harper, 2009). Suggesting humans are causing a modern-day mass extinction event (Benton & Harper, 2009).
                           </Typography>
                         </CardContent>
