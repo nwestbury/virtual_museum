@@ -91,7 +91,7 @@ class HistoryPage extends React.Component {
                     subheader=""
                     preview={
                       <Typography paragraph align="left">
-                        <i>Bothrioleps</i> had a uniquely shaped head with closely placed ventral eyes
+                        <i>Bothriolepis</i> had a uniquely shaped head with closely placed ventral eyes
                       </Typography>
                     }
                     image={HeadImage}
@@ -110,7 +110,7 @@ class HistoryPage extends React.Component {
                   subheader=""
                   preview={
                     <Typography paragraph align="left">
-                      <i>Bothrioleps</i> had a jaw with two functionally independent halves
+                      <i>Bothriolepis</i> had a jaw with two functionally independent halves
                     </Typography>
                   }
                   image={JawImage}
