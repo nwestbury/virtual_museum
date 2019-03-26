@@ -88,7 +88,7 @@ class ReferencePage extends React.Component {
                         <ListItem>
                             <ListItemText
                             primary="Bothriolepis Canadensis 3D Model"
-                            secondary='Anthodon (2018) Bothriolepis Canadensis 3D Model [3D model file]. Retrieved from https://sketchfab.com/3d-models/bothriolepis-canadensis-fd7bda03c2684c72b3016dae134a8150'
+                            secondary='Anthodon (2018). Bothriolepis Canadensis 3D Model [3D model file]. Retrieved from https://sketchfab.com/3d-models/bothriolepis-canadensis-fd7bda03c2684c72b3016dae134a8150'
                             />
                         </ListItem>
                         <ListItem>
@@ -100,7 +100,7 @@ class ReferencePage extends React.Component {
                         <ListItem>
                             <ListItemText
                             primary="Devonian Fishes and Plants of Miguasha, Quebec, Canada"
-                            secondary='Cloutier, R., 1996, Devonian Fishes and Plants of Miguasha, Quebec, Canada. Retrieved from https://journals.lib.unb.ca/index.php/GC/article/view/geocanj.2013.40.008/24239'
+                            secondary='Cloutier, R. (1996). Devonian Fishes and Plants of Miguasha, Quebec, Canada. Retrieved from https://journals.lib.unb.ca/index.php/GC/article/view/geocanj.2013.40.008/24239'
                             />
                         </ListItem>
                         <ListItem>
@@ -135,13 +135,13 @@ class ReferencePage extends React.Component {
                         <ListItem>
                             <ListItemText
                             primary="Devonian Fishes and Plants of Miguasha"
-                            secondary='Cloutier, R., 1996, Devonian Fishes and Plants of Miguasha, Quebec, Canada: Verlag Dr. Friedrich Pfeil, München'
+                            secondary='Cloutier, R. (1996). Devonian Fishes and Plants of Miguasha, Quebec, Canada: Verlag Dr. Friedrich Pfeil, München'
                             />
                         </ListItem>
                         <ListItem>
                             <ListItemText
                             primary="The Miguasha Fossil-Fish-Lagerstätte: A consequence of the Devonian land–sea interactions"
-                            secondary='Cloutier, R., Proust, J.-N., and Tessier, B., 2011, The Miguasha Fossil-Fish-Lagerstätte: A consequence of the Devonian land–sea interactions: Palaeobiodiversity and Palaeoenvironments, v. 91, p. 293–323, http://dx.doi.org/10.1007/s12549-011-0058-0.'
+                            secondary='Cloutier, R., Proust, J.-N., and Tessier, B. (2011). The Miguasha Fossil-Fish-Lagerstätte: A consequence of the Devonian land–sea interactions: Palaeobiodiversity and Palaeoenvironments, v. 91, p. 293–323, http://dx.doi.org/10.1007/s12549-011-0058-0.'
                             />
                         </ListItem>
                         <ListItem>
@@ -312,7 +312,7 @@ class ReferencePage extends React.Component {
                       <ListItem>
                           <ListItemText
                           primary="From the Cambrian Explosion to the Great Dying"
-                          secondary='PBS Eons. (2018, February 20th). From the Cambrian Explosion to the Great Dying. [Youtube] Retrieved March 23rd, 2019, from https://www.youtube.com/watch?v=RDQa0okkpf0.'
+                          secondary='PBS Eons. (2018, February 20th). From the Cambrian Explosion to the Great Dying. [YouTube] Retrieved March 23rd, 2019, from https://www.youtube.com/watch?v=RDQa0okkpf0.'
                           />
                       </ListItem>
                       <ListItem>
@@ -329,7 +329,7 @@ class ReferencePage extends React.Component {
                         <ListItem>
                             <ListItemText
                             primary="The 6 Craziest Extinctions Ever"
-                            secondary='AsapSCIENCE. (2015, April 22nd). The 6 Craziest Extinctions Ever. [Youtube]. Retrieved March 24th, 2019, from https://www.youtube.com/watch?v=wissIOikrqc.'
+                            secondary='AsapSCIENCE. (2015). The 6 Craziest Extinctions Ever. [Youtube]. Retrieved March 24th, 2019, from https://www.youtube.com/watch?v=wissIOikrqc.'
                             />
                         </ListItem>
                         <ListItem>
@@ -377,7 +377,7 @@ class ReferencePage extends React.Component {
                         <ListItem>
                             <ListItemText
                             primary="When Fish Wore Armor"
-                            secondary='PBS Eons. (2018, July 24). When Fish Wore Armor. [Youtube]. Retrieved March 24th, 2019, from https://www.youtube.com/watch?v=5pVTZH1LyTw.'
+                            secondary='PBS Eons. (2018). When Fish Wore Armor. [YouTube]. Retrieved March 24th, 2019, from https://www.youtube.com/watch?v=5pVTZH1LyTw.'
                             />
                         </ListItem>
                     </List>
