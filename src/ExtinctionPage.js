@@ -172,19 +172,35 @@ class FossilPage extends React.Component {
                   </Typography>
                 </Grid>
                 <Grid item sm={12} md={6} className={classes.flex}>
-                  <Card className={classes.flexVCenter}>
-                    <CardMedia
-                      component="img"
-                      alt="Fossil image of the extinct Bothriolepis canadensis"
-                      image={park_both}
-                      title="Fossil image of the extinct Bothriolepis canadensis"
-                    />
-                    <CardContent>
-                      <Typography component="p">
-                        Figure 3. Here is a complete fossil image of the extinct <i>Bothriolepis canadensis</i> (Miguasha National Park, 2007).
-                      </Typography>
-                    </CardContent>
-                  </Card>
+                  <Grid container spacing={24}>
+                    <Grid item sm={12}>
+                      <Card className={classes.card + ' ' + classes.flexVCenter}>
+                        <CardContent>
+                          <Typography component="h3" variant="h5" align="center">
+                            Fun Fact: Did you Know?
+                          </Typography>
+                          <Typography component="p">
+                            It is still being debated that we could be experiencing a sixth mass extinction (Benton & Harper, 2009). With the increasing human population and increasing pressure on the environment plants and animals are dying at faster rates than times in the past (Benton & Harper, 2009). Suggesting humans are causing a modern-day mass extinction event (Benton & Harper, 2009).
+                          </Typography>
+                        </CardContent>
+                      </Card>
+                      </Grid>
+                    <Grid item sm={12}>
+                    <Card className={classes.flexVCenter}>
+                      <CardMedia
+                        component="img"
+                        alt="Fossil image of the extinct Bothriolepis canadensis"
+                        image={park_both}
+                        title="Fossil image of the extinct Bothriolepis canadensis"
+                      />
+                      <CardContent>
+                        <Typography component="p">
+                          Figure 3. Here is a complete fossil image of the extinct <i>Bothriolepis canadensis</i> (Miguasha National Park, 2007).
+                        </Typography>
+                      </CardContent>
+                    </Card>
+                    </Grid>
+                  </Grid>
                 </Grid>
                 <Grid item sm={12} md={6} className={classes.flex}>
                   <Card className={classes.card + ' ' + classes.flexVCenter}>

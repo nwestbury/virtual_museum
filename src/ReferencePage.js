@@ -108,7 +108,7 @@ class ReferencePage extends React.Component {
                             }
                             secondary={
                                 <React.Fragment>
-                                Bechard, I., Arsenault, F., Cloutier, R., & Kerr, J. (2014). <i>The Devonian placoderm fish Bothriolepis canadensis revisited with three-dimensional digital imagery. Palaeontologia Electronica</i>, 17(1).'
+                                Bechard, I., Arsenault, F., Cloutier, R., & Kerr, J. (2014). <i>The Devonian placoderm fish Bothriolepis canadensis revisited with three-dimensional digital imagery. Palaeontologia Electronica, 17(1)</i>.'
                                 </React.Fragment>
                             }
                             />
@@ -186,7 +186,7 @@ class ReferencePage extends React.Component {
                         <ListItem>
                             <ListItemText
                             primary={<React.Fragment><i>The Devonian placoderm fish Bothriolepis canadensis revisited with three-dimensional digital imagery</i></React.Fragment>}
-                            secondary={<React.Fragment>Béchard, I., Arsenault, F., Cloutier, R., & Kerr, J. (2014). <i>The Devonian placoderm fish Bothriolepis canadensis revisited with three-dimensional digital imagery. Palaeontologia Electronica</i>, 17(1), 1-19.</React.Fragment>}
+                            secondary={<React.Fragment>Béchard, I., Arsenault, F., Cloutier, R., & Kerr, J. (2014). <i>The Devonian placoderm fish Bothriolepis canadensis revisited with three-dimensional digital imagery. Palaeontologia Electronica, 17(1)</i>, 1-19.</React.Fragment>}
                             />
                         </ListItem>
                         <ListItem>
@@ -204,7 +204,7 @@ class ReferencePage extends React.Component {
                         <ListItem>
                             <ListItemText
                             primary={<React.Fragment><i>New facts concerning Bothriolepis</i></React.Fragment>}
-                            secondary={<React.Fragment>Patten, W. (1904). <i>New facts concerning Bothriolepis. The Biological Bulletin</i>, 7(2), 113-124.</React.Fragment>}
+                            secondary={<React.Fragment>Patten, W. (1904). <i>New facts concerning Bothriolepis. The Biological Bulletin, 7(2)</i>, 113-124.</React.Fragment>}
                             />
                         </ListItem>
                         <ListItem>
@@ -227,7 +227,7 @@ class ReferencePage extends React.Component {
                         <ListItem>
                             <ListItemText
                             primary={<React.Fragment><i>Bothriolepid antiarchs (Vertebrata, Placodermi) from the Devonian of the north-western part of the East European Platform</i></React.Fragment>}
-                            secondary={<React.Fragment>Lukševič E. (2001). — <i>Bothriolepid antiarchs (Vertebrata, Placodermi) from the Devonian of the north-western part of the East European Platform. Geodiversitas</i> 23 (4): 489-609.</React.Fragment>}
+                            secondary={<React.Fragment>Lukševič E. (2001). <i>Bothriolepid antiarchs (Vertebrata, Placodermi) from the Devonian of the north-western part of the East European Platform. Geodiversitas 23 (4)</i>: 489-609.</React.Fragment>}
                             />
                         </ListItem>
                         <ListItem>
@@ -245,13 +245,13 @@ class ReferencePage extends React.Component {
                         <ListItem>
                             <ListItemText
                             primary={<React.Fragment><i>Form and Function of the Fish Bothriolepis (Devonian; Placodermi, Antiarchi): The First Terrestrial Vertebrate?</i></React.Fragment>}
-                            secondary={<React.Fragment>Wells, N.A. and J.A.Door, Jr. (1985). <i>Form and Function of the Fish Bothriolepis (Devonian; Placodermi, Antiarchi): The First Terrestrial Vertebrate?. Michigan Academician</i> 17(2): 157-173.</React.Fragment>}
+                            secondary={<React.Fragment>Wells, N.A. and J.A.Door, Jr. (1985). <i>Form and Function of the Fish Bothriolepis (Devonian; Placodermi, Antiarchi): The First Terrestrial Vertebrate?. Michigan Academician 17(2)</i>: 157-173.</React.Fragment>}
                             />
                         </ListItem>
                         <ListItem>
                             <ListItemText
                             primary={<React.Fragment><i>Placoderms (Armored Fish): Dominant Vertebrates of the Devonian Period</i></React.Fragment>}
-                            secondary={<React.Fragment>Young, G. (2010). <i>Placoderms (Armored Fish): Dominant Vertebrates of the Devonian Period. Annual Review of Earth and Planetary Sciences.</i> 38: 523–550.</React.Fragment>}
+                            secondary={<React.Fragment>Young, G. (2010). <i>Placoderms (Armored Fish): Dominant Vertebrates of the Devonian Period. Annual Review of Earth and Planetary Sciences. 38</i>: 523–550.</React.Fragment>}
                             />
                         </ListItem>
                     </List>
@@ -375,7 +375,7 @@ class ReferencePage extends React.Component {
                         <ListItem>
                             <ListItemText
                             primary={<React.Fragment><i>Devonian climate change, breathing, and the origin of the tetrapod stem group</i></React.Fragment>}
-                            secondary={<React.Fragment>Clack, J. A. (2007). <i>Devonian climate change, breathing, and the origin of the tetrapod stem group. Integrative and Comparative Biology</i>, 47(4), 510-523.</React.Fragment>}
+                            secondary={<React.Fragment>Clack, J. A. (2007). <i>Devonian climate change, breathing, and the origin of the tetrapod stem group. Integrative and Comparative Biology, 47(4)</i>, 510-523.</React.Fragment>}
                             />
                         </ListItem>
                         <ListItem>

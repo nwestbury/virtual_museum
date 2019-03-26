@@ -21,7 +21,6 @@ import temptable from './img/temptable.png';
 import devonian_climate from './img/devonian_climate.png';
 import geomap from './img/geomap.png';
 import temp_graph from './img/temp_graph.png';
-import rip from './img/rip.png';
 
 
 const styles = theme => ({
