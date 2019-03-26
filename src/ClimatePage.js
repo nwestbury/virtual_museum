@@ -220,6 +220,11 @@ class FossilPage extends React.Component {
                     </CardContent>
                   </Card>
                 </Grid>
+                <Grid item sm={12} md={6}>
+                  <Typography variant="subtitle1" align="left">
+                    In the geographic map of the world during the Devonian period (Figure 6) the Earth appears as a bizarre planet looking very different from the modern-day world (Miguasha National Park, 2007). During the Devonian there were three major landmasses such as Gondwana, Euramerica, and Siberia (Bagley, 2014; Miguasha National Park, 2007). Gondwana was positioned in mostly the southern hemisphere (Figure 6) and even covered the south pole having a cool temperate climate (Bagley, 2014; Miguasha National Park, 2007). Siberia was positioned more north having an arid type of climate and lastly, in the Devonian period the landmass Euramerica was found at the equator which had arid and tropical climates (Miguasha National Park, 2007). The position of Euramerica set the stage for the spread of tropical and equatorial forests (Miguasha National Park, 2007). As well, the position of the landmass near the equator indicates that vertebrate animals were concentrated there where the warm climate helped their development and evolution (Miguasha National Park, 2007). Overall, the climate of the continental interior regions during the Devonian period was warm (Figure 7) and dry having greenhouse conditions (Bagley, 2014; Miguasha National Park, 2007).
+                  </Typography>
+                </Grid>
                 <Grid item sm={12} md={6} className={classes.flex}>
                   <Card className={classes.flexVCenter}>
                     <CardMedia
@@ -236,11 +241,12 @@ class FossilPage extends React.Component {
                   </Card>
                 </Grid>
                 <Grid item sm={12} md={6}>
-                  <Typography component="h3" variant="h5" align="center">
-                    Devonian Climate
-                  </Typography>
                   <Typography variant="subtitle1" align="left">
-                    In the geographic map of the world during the Devonian period (Figure 6) the Earth appears as a bizarre planet looking very different from the modern-day world (Miguasha National Park, 2007). During the Devonian there were three major landmasses such as Gondwana, Euramerica, and Siberia (Bagley, 2014; Miguasha National Park, 2007). Gondwana was positioned in mostly the southern hemisphere (Figure 6) and even covered the south pole having a cool temperate climate (Bagley, 2014; Miguasha National Park, 2007). Siberia was positioned more north having an arid type of climate and lastly, in the Devonian period the landmass Euramerica was found at the equator which had arid and tropical climates (Miguasha National Park, 2007). The position of Euramerica set the stage for the spread of tropical and equatorial forests (Miguasha National Park, 2007). As well, the position of the landmass near the equator indicates that vertebrate animals were concentrated there where the warm climate helped their development and evolution (Miguasha National Park, 2007). Overall, the climate of the continental interior regions during the Devonian period was warm (Figure 7) and dry having greenhouse conditions (Bagley, 2014; Miguasha National Park, 2007).
+                    The placoderm <i>Bothriolepis canadensis</i> lived in the greenhouse condition Earth but went extinct near the late Devonian when climate change occurred. Near the end of the Devonian period there is a time of global cooling and glaciation that caused the extinction of many species (Miguasha National Park, 2007). The cooler climate might be explained by the appearance of photosynthetic plants (Miguasha National Park, 2007). Plants that use photosynthesis will take carbon dioxide (CO2) out of the atmosphere which is
+                    a <Dialog title="greenhouse gas" def="A gas that promotes the heating of the atmosphere by the greenhouse effect such as carbon dioxide (Benton & Harper, 2009)." /> which
+                    will contribute to lower temperatures (Miguasha National Park, 2007). Also, the cooling event could be explained by the position of the landmasses themselves (Miguasha National Park, 2007). As the landmasses drift together to
+                    form <Dialog title="Pangea" def="The word Pangea means “all world” and a supercontinent was named after it that was formed of all the modern continents (Benton & Harper, 2009)." /> the
+                    oceans are closing modifying the ocean currents (Miguasha National Park, 2007). This is important because ocean currents can regulate the temperature by redistributing heat around the planet and an alteration in ocean current circulation will lead to a change in the climate (Miguasha National Park, 2007).
                   </Typography>
                 </Grid>
                 <Grid item sm={12} md={6} className={classes.flex}>
@@ -257,15 +263,6 @@ class FossilPage extends React.Component {
                       </Typography>
                     </CardContent>
                   </Card>
-                </Grid>
-                <Grid item sm={12} md={6}>
-                  <Typography variant="subtitle1" align="left">
-                    The placoderm <i>Bothriolepis canadensis</i> lived in the greenhouse condition Earth but went extinct near the late Devonian when climate change occurred. Near the end of the Devonian period there is a time of global cooling and glaciation that caused the extinction of many species (Miguasha National Park, 2007). The cooler climate might be explained by the appearance of photosynthetic plants (Miguasha National Park, 2007). Plants that use photosynthesis will take carbon dioxide (CO2) out of the atmosphere which is
-                    a <Dialog title="greenhouse gas" def="A gas that promotes the heating of the atmosphere by the greenhouse effect such as carbon dioxide (Benton & Harper, 2009)." /> which
-                    will contribute to lower temperatures (Miguasha National Park, 2007). Also, the cooling event could be explained by the position of the landmasses themselves (Miguasha National Park, 2007). As the landmasses drift together to
-                    form <Dialog title="Pangea" def="The word Pangea means “all world” and a supercontinent was named after it that was formed of all the modern continents (Benton & Harper, 2009)." /> the
-                    oceans are closing modifying the ocean currents (Miguasha National Park, 2007). This is important because ocean currents can regulate the temperature by redistributing heat around the planet and an alteration in ocean current circulation will lead to a change in the climate (Miguasha National Park, 2007).
-                  </Typography>
                 </Grid>
                 <Grid item sm={12} md={6} className={classes.flex}>
                   <Card className={classes.card + ' ' + classes.flexVCenter}>
@@ -290,8 +287,8 @@ class FossilPage extends React.Component {
                       <Typography component="h3" variant="h5" align="center">
                         Did you know?
                       </Typography>
-                      <Typography component="p">
-                        During the Devonian period the <i>Bothriolepis canadensis</i> had days that were only 22 hours long and a Devonian year that had 400 days. The rotation speed of the planet changes over time due to the gravitational pull of the Moon (Benton & Harper, 2009; Miguasha National Park, 2007).
+                      <Typography component="p" variant="subtitle1">
+                        During the Devonian period the <i>Bothriolepis canadensis</i> had days that were only 22 hours long and a Devonian year that had 400 days (Benton & Harper, 2009; Miguasha National Park, 2007). The rotation speed of the planet changes over time due to the gravitational pull of the Moon (Miguasha National Park, 2007). The Moon attracts great masses of water toward it while it orbits around the Earth and as the Earth turns eastward, the tides are moving westward, and this slows the rotation of the planet by 0.0016 seconds per century (Miguasha National Park, 2007). Thus, the Earth was rotating faster in the past, having longer years, but shorter days (Benton & Harper, 2009; Miguasha National Park, 2007). The evidence of this can be seen in the growth lines of the Devonian coral (Benton & Harper, 2009; Miguasha National Park, 2007). Under a microscope we can see the daily layers the corals add making it possible to count the number of days (Benton & Harper, 2009; Miguasha National Park, 2007). Therefore, a Devonian coral (Figure 9) will have 400 growth lines in a year and a modern-day coral will have 365 growth lines (Benton & Harper, 2009; Miguasha National Park, 2007).
                       </Typography>
                     </CardContent>
                   </Card>

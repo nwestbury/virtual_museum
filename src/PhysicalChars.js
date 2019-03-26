@@ -129,7 +129,7 @@ class HistoryPage extends React.Component {
                     subheader=""
                     preview={
                       <Typography paragraph align="left">
-                        <i>Bothrioleps</i> used its small armor trunk as protection against predators
+                        <i>Bothriolepis</i> used its small armor trunk as protection against predators
                       </Typography>
                     }
                     image={TrunkImage}
@@ -148,14 +148,14 @@ class HistoryPage extends React.Component {
                     subheader=""
                     preview={
                       <Typography paragraph align="left">
-                        <i>Bothrioleps</i>' tail and fins allowed it to navigate with ease
+                        <i>Bothriolepis</i>' tail and fins allowed it to navigate with ease
                       </Typography>
                     }
                     image={FinsImage}
                     content={
                         <React.Fragment>
                             <Typography paragraph align="left">
-                              <i>Bothrioleps</i> possessed two protected pectoral fins, which allowed a fair array of motion; as well as a dorsal and caudal fin which were part of the softer portions of the fish and where the armor did not extend to, as this may have further restricted its movements (Béchard et al., 2014). The caudal fin was slender and longer likely to aid in swimming; it was the major fin involved in swimming while the dorsal and pectoral fins were more for stabilization and driving  (Béchard et al., 2014; Patten, 1904). In terms of motility, the caudal fin would propel the fish forward through side-to-side movements and the motion has been compared to that of a boxfish, which has ostraciiform locomotion (Béchard et al., 2014). Scientists also had reason to believe that these fishes may have used their pectoral fins, which had some level of articulation, to allow them to wriggle onto land, as well as burrow into wet mud (Thayer, 2009).  
+                              <i>Bothriolepis</i> possessed two protected pectoral fins, which allowed a fair array of motion; as well as a dorsal and caudal fin which were part of the softer portions of the fish and where the armor did not extend to, as this may have further restricted its movements (Béchard et al., 2014). The caudal fin was slender and longer likely to aid in swimming; it was the major fin involved in swimming while the dorsal and pectoral fins were more for stabilization and driving  (Béchard et al., 2014; Patten, 1904). In terms of motility, the caudal fin would propel the fish forward through side-to-side movements and the motion has been compared to that of a boxfish, which has ostraciiform locomotion (Béchard et al., 2014). Scientists also had reason to believe that these fishes may have used their pectoral fins, which had some level of articulation, to allow them to wriggle onto land, as well as burrow into wet mud (Thayer, 2009).  
                             </Typography>
                         </React.Fragment>
                     }

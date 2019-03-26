@@ -87,6 +87,12 @@ class ReferencePage extends React.Component {
                     <List>
                         <ListItem>
                             <ListItemText
+                            primary="Bothriolepis Canadensis 3D Model"
+                            secondary='Anthodon (2018) Bothriolepis Canadensis 3D Model [3D model file]. Retrieved from https://sketchfab.com/3d-models/bothriolepis-canadensis-fd7bda03c2684c72b3016dae134a8150'
+                            />
+                        </ListItem>
+                        <ListItem>
+                            <ListItemText
                             primary="The Devonian placoderm fish Bothriolepis canadensis revisited with three-dimensional digital imagery"
                             secondary='Bechard, I., Arsenault, F., Cloutier, R., & Kerr, J. (2014). The Devonian placoderm fish Bothriolepis canadensis revisited with three-dimensional digital imagery. Palaeontologia Electronica, 17(1).'
                             />
@@ -99,26 +105,20 @@ class ReferencePage extends React.Component {
                         </ListItem>
                         <ListItem>
                             <ListItemText
-                            primary="A new large-bodied species of Bothriolepis (Antiarchi) from the Upper Devonian of Ellesmere Island, Nunavut, Canada"
-                            secondary='Downs, J., Daeschler, E., Garcia, V., & Shubin, N. (2016). A new large-bodied species of Bothriolepis (Antiarchi) from the Upper Devonian of Ellesmere Island, Nunavut, Canada. A new large-bodied species of Bothriolepis (Antiarchi) from the Upper Devonian of Ellesmere Island, Nunavut, Canada, 36(6), 1937-2809. http://dx.doi.org/10.1080/02724634.2016.1221833'
-                            />
-                        </ListItem>
-                        <ListItem>
-                            <ListItemText
                             primary="The soft anatomy of Bothriolepis. Journal of Paleontology"
                             secondary='Denison, R. H. (1941). The soft anatomy of Bothriolepis. Journal of Paleontology, 553-561.'
                             />
                         </ListItem>
                         <ListItem>
                             <ListItemText
-                            primary="The Upper Devonian Fish Bothriolepis (Placodermi: Antiarchi) from near Canowindra"
-                            secondary='Johanson, Z. (1998). The Upper Devonian Fish Bothriolepis (Placodermi: Antiarchi) from near Canowindra, New South Wales, Australia. AUSTRALIAN MUSEUM SCIENTIFIC PUBLICATIONS, 50(3), 315-348. https://doi.org/10.3853/j.0067-1975.50.1998.1289'
+                            primary="A new large-bodied species of Bothriolepis (Antiarchi) from the Upper Devonian of Ellesmere Island, Nunavut, Canada"
+                            secondary='Downs, J., Daeschler, E., Garcia, V., & Shubin, N. (2016). A new large-bodied species of Bothriolepis (Antiarchi) from the Upper Devonian of Ellesmere Island, Nunavut, Canada. A new large-bodied species of Bothriolepis (Antiarchi) from the Upper Devonian of Ellesmere Island, Nunavut, Canada, 36(6), 1937-2809. http://dx.doi.org/10.1080/02724634.2016.1221833'
                             />
                         </ListItem>
                         <ListItem>
                             <ListItemText
-                            primary="Bothriolepis Canadensis 3D Model"
-                            secondary='Anthodon (2018) Bothriolepis Canadensis 3D Model [3D model file]. Retrieved from https://sketchfab.com/3d-models/bothriolepis-canadensis-fd7bda03c2684c72b3016dae134a8150'
+                            primary="The Upper Devonian Fish Bothriolepis (Placodermi: Antiarchi) from near Canowindra"
+                            secondary='Johanson, Z. (1998). The Upper Devonian Fish Bothriolepis (Placodermi: Antiarchi) from near Canowindra, New South Wales, Australia. AUSTRALIAN MUSEUM SCIENTIFIC PUBLICATIONS, 50(3), 315-348. https://doi.org/10.3853/j.0067-1975.50.1998.1289'
                             />
                         </ListItem>
                         <ListItem>
@@ -132,6 +132,18 @@ class ReferencePage extends React.Component {
                         Fossil Page
                     </Typography>
                     <List>
+                        <ListItem>
+                            <ListItemText
+                            primary="Devonian Fishes and Plants of Miguasha"
+                            secondary='Cloutier, R., 1996, Devonian Fishes and Plants of Miguasha, Quebec, Canada: Verlag Dr. Friedrich Pfeil, München'
+                            />
+                        </ListItem>
+                        <ListItem>
+                            <ListItemText
+                            primary="The Miguasha Fossil-Fish-Lagerstätte: A consequence of the Devonian land–sea interactions"
+                            secondary='Cloutier, R., Proust, J.-N., and Tessier, B., 2011, The Miguasha Fossil-Fish-Lagerstätte: A consequence of the Devonian land–sea interactions: Palaeobiodiversity and Palaeoenvironments, v. 91, p. 293–323, http://dx.doi.org/10.1007/s12549-011-0058-0.'
+                            />
+                        </ListItem>
                         <ListItem>
                             <ListItemText
                             primary="Report on the geological survey of the province of New-Brunswick"
@@ -150,18 +162,6 @@ class ReferencePage extends React.Component {
                             secondary='Sage-animation.ca. (2007). Tectonic context [Video file]. Retrieved from http://www.miguasha.ca/mig-en/tectonic_context.php'
                             />
                         </ListItem>
-                        <ListItem>
-                            <ListItemText
-                            primary="Devonian Fishes and Plants of Miguasha"
-                            secondary='Cloutier, R., 1996, Devonian Fishes and Plants of Miguasha, Quebec, Canada: Verlag Dr. Friedrich Pfeil, München'
-                            />
-                        </ListItem>
-                        <ListItem>
-                            <ListItemText
-                            primary="The Miguasha Fossil-Fish-Lagerstätte: A consequence of the Devonian land–sea interactions"
-                            secondary='Cloutier, R., Proust, J.-N., and Tessier, B., 2011, The Miguasha Fossil-Fish-Lagerstätte: A consequence of the Devonian land–sea interactions: Palaeobiodiversity and Palaeoenvironments, v. 91, p. 293–323, http://dx.doi.org/10.1007/s12549-011-0058-0.'
-                            />
-                        </ListItem>
                     </List>
                     <Typography component="h1" variant="h6" align="left">
                         Physical Characteristics Page
@@ -169,8 +169,8 @@ class ReferencePage extends React.Component {
                     <List>
                         <ListItem>
                             <ListItemText
-                            primary="An introduction to Grand Canyon fossils"
-                            secondary='Thayer, D. (2009). An introduction to Grand Canyon fossils. Arizona: Grand Canyon Association.'
+                            primary="The Devonian placoderm fish Bothriolepis canadensis revisited with three-dimensional digital imagery"
+                            secondary='Béchard, I., Arsenault, F., Cloutier, R., & Kerr, J. (2014). The Devonian placoderm fish Bothriolepis canadensis revisited with three-dimensional digital imagery. Palaeontologia Electronica, 17(1), 1-19.'
                             />
                         </ListItem>
                         <ListItem>
@@ -181,20 +181,20 @@ class ReferencePage extends React.Component {
                         </ListItem>
                         <ListItem>
                             <ListItemText
+                            primary="Cast of a B. canadensis fossil Image"
+                            secondary='H. (2012). Bothriolepis canadensis - Cast [Digital image]. Retrieved from https://upload.wikimedia.org/wikipedia/commons/6/62/Bothriolepis_canadensis-001.JPG'
+                            />
+                        </ListItem>
+                        <ListItem>
+                            <ListItemText
                             primary="New facts concerning Bothriolepis"
                             secondary='Patten, W. (1904). New facts concerning Bothriolepis. The Biological Bulletin, 7(2), 113-124.'
                             />
                         </ListItem>
                         <ListItem>
                             <ListItemText
-                            primary="The Devonian placoderm fish Bothriolepis canadensis revisited with three-dimensional digital imagery"
-                            secondary='Béchard, I., Arsenault, F., Cloutier, R., & Kerr, J. (2014). The Devonian placoderm fish Bothriolepis canadensis revisited with three-dimensional digital imagery. Palaeontologia Electronica, 17(1), 1-19.'
-                            />
-                        </ListItem>
-                        <ListItem>
-                            <ListItemText
-                            primary="Cast of a B. canadensis fossil Image"
-                            secondary='H. (2012). Bothriolepis canadensis - Cast [Digital image]. Retrieved from https://upload.wikimedia.org/wikipedia/commons/6/62/Bothriolepis_canadensis-001.JPG'
+                            primary="An introduction to Grand Canyon fossils"
+                            secondary='Thayer, D. (2009). An introduction to Grand Canyon fossils. Arizona: Grand Canyon Association.'
                             />
                         </ListItem>
                     </List>
@@ -216,18 +216,6 @@ class ReferencePage extends React.Component {
                         </ListItem>
                         <ListItem>
                             <ListItemText
-                            primary="Form and Function of the Fish Bothriolepis (Devonian; Placodermi, Antiarchi): The First Terrestrial Vertebrate?"
-                            secondary='Wells, N.A. and J.A.Door, Jr. (1985). "Form and Function of the Fish Bothriolepis (Devonian; Placodermi, Antiarchi): The First Terrestrial Vertebrate?" Michigan Academician 17(2): 157-173.'
-                            />
-                        </ListItem>
-                        <ListItem>
-                            <ListItemText
-                            primary="Placoderms (Armored Fish): Dominant Vertebrates of the Devonian Period"
-                            secondary='Young, G. (2010). Placoderms (Armored Fish): Dominant Vertebrates of the Devonian Period. Annual Review of Earth and Planetary Sciences. 38: 523–550.'
-                            />
-                        </ListItem>
-                        <ListItem>
-                            <ListItemText
                             primary="More About Placederms from the Devonian Times Chart"
                             secondary='Murphy, D. (2002). More About Placederms from the Devonian Times [Digital image]. Retrieved from http://www.devoniantimes.org/who/images/p-placoderm.gif'
                             />
@@ -236,6 +224,18 @@ class ReferencePage extends React.Component {
                             <ListItemText
                             primary="Geo-timescale GitHub"
                             secondary='Peters, S. (2015). Geo-timescale Github [Digital codebase]. Retrieved from https://github.com/UW-Macrostrat/geo-timescale'
+                            />
+                        </ListItem>
+                        <ListItem>
+                            <ListItemText
+                            primary="Form and Function of the Fish Bothriolepis (Devonian; Placodermi, Antiarchi): The First Terrestrial Vertebrate?"
+                            secondary='Wells, N.A. and J.A.Door, Jr. (1985). "Form and Function of the Fish Bothriolepis (Devonian; Placodermi, Antiarchi): The First Terrestrial Vertebrate?" Michigan Academician 17(2): 157-173.'
+                            />
+                        </ListItem>
+                        <ListItem>
+                            <ListItemText
+                            primary="Placoderms (Armored Fish): Dominant Vertebrates of the Devonian Period"
+                            secondary='Young, G. (2010). Placoderms (Armored Fish): Dominant Vertebrates of the Devonian Period. Annual Review of Earth and Planetary Sciences. 38: 523–550.'
                             />
                         </ListItem>
                     </List>
