@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "9e0b8bffe0ebd2e5366a0ebcf96c09c0",
-    "url": "/static/media/rock3.9e0b8bff.png"
+    "revision": "d38d920fc90f4079f7e5706087bc764b",
+    "url": "/static/media/rock4.d38d920f.png"
   },
   {
-    "revision": "8fa93b5beb69e5c69eaa",
-    "url": "/static/css/main.96769b48.chunk.css"
+    "revision": "79b829aa9880b6ab554f",
+    "url": "/static/css/main.8be222d5.chunk.css"
   },
   {
-    "revision": "e27bf2784474c61b8375",
-    "url": "/static/js/1.e27bf278.chunk.js"
+    "revision": "e00c7d776024aff31a8f",
+    "url": "/static/js/1.e00c7d77.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -60,12 +60,12 @@ self.__precacheManifest = [
     "url": "/static/media/rock2.b41f1ed3.png"
   },
   {
-    "revision": "8fa93b5beb69e5c69eaa",
-    "url": "/static/js/main.8fa93b5b.chunk.js"
+    "revision": "9e0b8bffe0ebd2e5366a0ebcf96c09c0",
+    "url": "/static/media/rock3.9e0b8bff.png"
   },
   {
-    "revision": "d38d920fc90f4079f7e5706087bc764b",
-    "url": "/static/media/rock4.d38d920f.png"
+    "revision": "79b829aa9880b6ab554f",
+    "url": "/static/js/main.79b829aa.chunk.js"
   },
   {
     "revision": "133a57c48feba54a4e47a4526899cac8",
@@ -86,6 +86,10 @@ self.__precacheManifest = [
   {
     "revision": "9790898931112f6e1ba4be6de2875bb4",
     "url": "/static/media/coral.97908989.png"
+  },
+  {
+    "revision": "cbf8823ac7f5bf9925c410b67c7d89ac",
+    "url": "/static/media/climate_graph.cbf8823a.png"
   },
   {
     "revision": "166969a71d5f579eb4b2e26ab1377cb8",
@@ -120,7 +124,7 @@ self.__precacheManifest = [
     "url": "/static/media/sand_bck.8b07c240.jpg"
   },
   {
-    "revision": "ed45ffe2f3656c28e36b4f5177118e46",
+    "revision": "aa33a8ce4f284ab99456fefdc2c4065a",
     "url": "/index.html"
   }
 ];

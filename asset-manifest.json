@@ -1,9 +1,9 @@
 {
-  "main.css": "/static/css/main.96769b48.chunk.css",
-  "main.js": "/static/js/main.8fa93b5b.chunk.js",
-  "main.js.map": "/static/js/main.8fa93b5b.chunk.js.map",
-  "static/js/1.e27bf278.chunk.js": "/static/js/1.e27bf278.chunk.js",
-  "static/js/1.e27bf278.chunk.js.map": "/static/js/1.e27bf278.chunk.js.map",
+  "main.css": "/static/css/main.8be222d5.chunk.css",
+  "main.js": "/static/js/main.79b829aa.chunk.js",
+  "main.js.map": "/static/js/main.79b829aa.chunk.js.map",
+  "static/js/1.e00c7d77.chunk.js": "/static/js/1.e00c7d77.chunk.js",
+  "static/js/1.e00c7d77.chunk.js.map": "/static/js/1.e00c7d77.chunk.js.map",
   "runtime~main.js": "/static/js/runtime~main.229c360f.js",
   "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
   "static/media/rip.png": "/static/media/rip.166969a7.png",
@@ -24,6 +24,7 @@
   "static/media/geomap.png": "/static/media/geomap.dd84e4b4.png",
   "static/media/temp_graph.png": "/static/media/temp_graph.fd469989.png",
   "static/media/coral.png": "/static/media/coral.97908989.png",
+  "static/media/climate_graph.png": "/static/media/climate_graph.cbf8823a.png",
   "static/media/figure1.png": "/static/media/figure1.c423ae94.png",
   "static/media/figure2.png": "/static/media/figure2.86f8056e.png",
   "static/media/park_both.png": "/static/media/park_both.4b819655.png",
@@ -32,8 +33,8 @@
   "static/media/water.jpg": "/static/media/water.820e89ec.jpg",
   "static/media/pool_bck.png": "/static/media/pool_bck.448adea4.png",
   "static/media/sand_bck.jpg": "/static/media/sand_bck.8b07c240.jpg",
-  "static/css/main.96769b48.chunk.css.map": "/static/css/main.96769b48.chunk.css.map",
+  "static/css/main.8be222d5.chunk.css.map": "/static/css/main.8be222d5.chunk.css.map",
   "index.html": "/index.html",
-  "precache-manifest.b22951e678a112c0238db77f5731fbf5.js": "/precache-manifest.b22951e678a112c0238db77f5731fbf5.js",
+  "precache-manifest.29d60dbd4d9dc815799912fc360b682b.js": "/precache-manifest.29d60dbd4d9dc815799912fc360b682b.js",
   "service-worker.js": "/service-worker.js"
 }
