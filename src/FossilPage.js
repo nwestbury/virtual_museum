@@ -80,7 +80,7 @@ class FossilPage extends React.Component {
                     Fossil Discovery
                   </Typography>
                   <Typography variant="subtitle1" align="left">
-                    The Miguasha fossil site is a Lagerstätten in eastern Québec. It was one of the first major paleontological locations to have been discovered and excavated in North America.The the first fossils to be discovered at Miguasha was made in 1842 by Abraham Gesner, the government geologist in New Brunswick. This fossil was most likely <i>Bothriolepis canadensis</i>, one of the most common fish from the Escuminac Formation (Gesner 1843).
+                    The Miguasha fossil site is a Lagerstätten in eastern Québec. It was one of the first major paleontological locations to have been discovered and excavated in North America.The the first fossils to be discovered at Miguasha was made in 1842 by Abraham Gesner, the government geologist in New Brunswick. This fossil was most likely <i>Bothriolepis canadensis</i>, one of the most common fish from the Escuminac Formation (Gesner, 1843).
                   </Typography>
                   <br />
                   <Card className={classes.card + ' ' + classes.flexVCenter}>
@@ -111,7 +111,7 @@ class FossilPage extends React.Component {
                     </video>
                     <CardContent>
                       <Typography component="p">
-                        Video simulation of plate tectonics through geologic time, Devonian starts at 0:26 (Sage animation 2007).
+                        Video simulation of plate tectonics through geologic time, Devonian starts at 0:26 (Sage animation, 2007).
                       </Typography>
                     </CardContent>
                   </Card>
@@ -128,7 +128,7 @@ class FossilPage extends React.Component {
                     Importance of the Find
                   </Typography>
                   <Typography variant="subtitle1" align="left">
-                    The <i>Bothriolepis</i> was found to have a series of small circular bite marks which is most likely from an osteichthyan located on the surface of the shield bones. This is one of the earliest signs of predation. The flattened morphology and dorsal eye position implies that the <i>Bothriolepis</i> was a bottom dweller. <i>Bothriolepis</i>, is considered a benthivore, which is an organism that feeds on benthic prey (Moloshnikov 2008). Conchostracans  and their valves have been found in the bothriolepis digestive tracts (Cloutier 1996). Social behaviour has been suggested for Bothriolepis because fossil groups are often composed of similar sized individuals or age groups (Cloutier et al. 2011).
+                    The <i>Bothriolepis</i> was found to have a series of small circular bite marks which is most likely from an osteichthyan located on the surface of the shield bones. This is one of the earliest signs of predation. The flattened morphology and dorsal eye position implies that the <i>Bothriolepis</i> was a bottom dweller. <i>Bothriolepis</i>, is considered a benthivore, which is an organism that feeds on benthic prey (Moloshnikov 2008). Conchostracans  and their valves have been found in the bothriolepis digestive tracts (Cloutier, 1996). Social behaviour has been suggested for Bothriolepis because fossil groups are often composed of similar sized individuals or age groups (Cloutier et al., 2011).
                   </Typography>
                   <br />
                   <Card className={classes.card + ' ' + classes.flexVCenter}>

@@ -353,7 +353,7 @@ class ReferencePage extends React.Component {
                         <ListItem>
                             <ListItemText
                             primary="BrainPOP: Extinction"
-                            secondary='BrainPOP. (2019). Extinction. Retrieved March 24th, 2019, from https://www.brainpop.com/science/ourfragileenvironment/extinction/.'
+                            secondary='BrainPOP. (2019). <i>Extinction</i>. Retrieved March 24th, 2019, from https://www.brainpop.com/science/ourfragileenvironment/extinction/.'
                             />
                         </ListItem>
                         <ListItem>
