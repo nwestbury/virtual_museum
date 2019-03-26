@@ -21,6 +21,7 @@ import temptable from './img/temptable.png';
 import devonian_climate from './img/devonian_climate.png';
 import geomap from './img/geomap.png';
 import temp_graph from './img/temp_graph.png';
+import coral from './img/coral.png';
 
 
 const styles = theme => ({
@@ -72,6 +73,11 @@ const styles = theme => ({
     textAlign: 'center',
     verticalAlign: 'middle',
   },
+  maxHeight: {
+    display: 'block',
+    margin: '0 auto',
+    width: 'auto',
+  }
 });
 
 class FossilPage extends React.Component {
@@ -106,8 +112,8 @@ class FossilPage extends React.Component {
                 </Grid>
                 <Grid item sm={12} md={6} className={classes.flex}>
                   <Grid container spacing={24}>
-                    <Grid item sm={12} md={6}>
-                      <Card className={classes.card}>
+                    <Grid item sm={12} md={6} className={classes.flex}>
+                      <Card>
                         <CardMedia
                           component="img"
                           alt="Image of a sedimentary rock that is an evaporite which is known as rock salt"
@@ -121,8 +127,8 @@ class FossilPage extends React.Component {
                         </CardContent>
                       </Card>
                     </Grid>
-                    <Grid item sm={12} md={6}>
-                      <Card className={classes.card}>
+                    <Grid item sm={12} md={6} className={classes.flex}>
+                      <Card>
                         <CardMedia
                           component="img"
                           alt="Sedimentary rock that is a calcrete specifically called limestone"
@@ -287,8 +293,23 @@ class FossilPage extends React.Component {
                         Did you know?
                       </Typography>
                       <Typography component="p" variant="subtitle1">
-                        During the Devonian period the <i>Bothriolepis canadensis</i> had days that were only 22 hours long and a Devonian year that had 400 days (Benton & Harper, 2009; Miguasha National Park, 2007). The rotation speed of the planet changes over time due to the gravitational pull of the Moon (Miguasha National Park, 2007). The Moon attracts great masses of water toward it while it orbits around the Earth and as the Earth turns eastward, the tides are moving westward, and this slows the rotation of the planet by 0.0016 seconds per century (Miguasha National Park, 2007). Thus, the Earth was rotating faster in the past, having longer years, but shorter days (Benton & Harper, 2009; Miguasha National Park, 2007). The evidence of this can be seen in the growth lines of the Devonian coral (Benton & Harper, 2009; Miguasha National Park, 2007). Under a microscope we can see the daily layers the corals add making it possible to count the number of days (Benton & Harper, 2009; Miguasha National Park, 2007). Therefore, a Devonian coral (Figure 9) will have 400 growth lines in a year and a modern-day coral will have 365 growth lines (Benton & Harper, 2009; Miguasha National Park, 2007).
+                        During the Devonian period the <i>Bothriolepis canadensis</i> had days that were only 22 hours long and a Devonian year that had 400 days (Benton & Harper, 2009; Miguasha National Park, 2007). The rotation speed of the planet changes over time due to the gravitational pull of the Moon (Miguasha National Park, 2007). The Moon attracts great masses of water toward it while it orbits around the Earth and as the Earth turns eastward, the tides are moving westward, and this slows the rotation of the planet by 0.0016 seconds per century (Miguasha National Park, 2007). Thus, the Earth was rotating faster in the past, having longer years, but shorter days (Benton & Harper, 2009; Miguasha National Park, 2007). The evidence of this can be seen in the growth lines of the Devonian coral (Benton & Harper, 2009; Miguasha National Park, 2007). Under a microscope we can see the daily layers the corals add making it possible to count the number of days (Benton & Harper, 2009; Miguasha National Park, 2007). Therefore, a Devonian coral (Figure 8) will have 400 growth lines in a year and a modern-day coral will have 365 growth lines (Benton & Harper, 2009; Miguasha National Park, 2007).
                       </Typography>
+                      <br />
+                      <CardMedia
+                        component="img"
+                        alt="Devonian banded coral"
+                        image={coral}
+                        classes={{
+                          media: classes.maxHeight,
+                        }}
+                        title="Devonian banded coral"
+                      />
+                      <CardContent>
+                        <Typography component="p">
+                          Figure 8.  Image of a Devonian banded coral (Benton & Harper, 2009).
+                        </Typography>
+                      </CardContent>
                     </CardContent>
                   </Card>
                 </Grid>
