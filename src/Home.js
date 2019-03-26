@@ -118,7 +118,7 @@ class Home extends React.Component {
                     allowFullScreen/>
                     <CardContent>
                       <Typography component="p">
-                        Interactive 3D model of <i>Bothriolepis canadensis</i>. Scroll to zoom, click and drag to rotate.
+                        Interactive 3D model of <i>Bothriolepis canadensis</i>. Scroll to zoom, click and drag to rotate (Anthodon, 2018).
                       </Typography>
                     </CardContent>
                   </Card>

@@ -14,6 +14,7 @@ import Home from './Home';
 import ImportancePage from './ImportancePage';
 import PhysicalCharsPage from './PhysicalChars';
 import FossilPage from './FossilPage';
+import CLimatePage from './ClimatePage';
 import ExtinctionPage from './ExtinctionPage';
 import ReferencePage from './ReferencePage';
 
@@ -69,6 +70,10 @@ const styles = theme => ({
     backgroundImage: 'linear-gradient(to bottom, #5558fc 0%,#feffff 100%)',
     backgroundPosition: 'center',
   },
+  climateBck: {
+    backgroundImage: 'linear-gradient(to bottom, #ffe6e6,#feffff 100%)',
+    backgroundPosition: 'center',
+  },
   fossilBck: {
     backgroundImage: `url(${PoolBck})`,
     backgroundRepeat: 'no-repeat',
@@ -84,10 +89,10 @@ const styles = theme => ({
   }
 });
 
-const backgroundClasses = ['homeBck', 'physicalBck', 'importanceBck', 'fossilBck', 'extinctionBck', 'referencesBck']
-const names = ['Introduction', 'Physical Characteristics', 'Fossil', 'Importance', 'Climate & Extinction', 'References'];
-const urls = ['/', '/physical-characteristics', '/fossil', '/paleological-importance', '/extinction', '/references'];
-const components = [Home, PhysicalCharsPage, FossilPage, ImportancePage, ExtinctionPage, ReferencePage];
+const backgroundClasses = ['homeBck', 'physicalBck', 'importanceBck', 'fossilBck',  'climateBck', 'extinctionBck', 'referencesBck']
+const names = ['Introduction', 'Physical Characteristics', 'Fossil', 'Importance', 'Climate', 'Extinction', 'References'];
+const urls = ['/', '/physical-characteristics', '/fossil', '/paleological-importance', '/climate', '/extinction', '/references'];
+const components = [Home, PhysicalCharsPage, FossilPage, ImportancePage, CLimatePage, ExtinctionPage, ReferencePage];
 
 class NavTabs extends React.Component {
   constructor(props) {
@@ -146,7 +151,8 @@ class NavTabs extends React.Component {
                 <Route path={urls[3]} component={components[3]} />
                 <Route path={urls[4]} component={components[4]} />
                 <Route path={urls[5]} component={components[5]} />
-                <Route exact path="/" component={components[0]}/>
+                <Route path={urls[6]} component={components[6]} />
+                <Route exact path="/" component={components[0]} />
                 <div className={classes.buttons}>
                     {value > 0 ?
                         <Button

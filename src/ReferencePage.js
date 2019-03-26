@@ -100,7 +100,7 @@ class ReferencePage extends React.Component {
                         <ListItem>
                             <ListItemText
                             primary="The soft anatomy of Bothriolepis. Journal of Paleontology"
-                            secondary='Denison, R.H. 1941. The soft anatomy of Bothriolepis. Journal of Paleontology. 15 (5): 553–561.'
+                            secondary='Denison, R. H. (1941). The soft anatomy of Bothriolepis. Journal of Paleontology, 553-561.'
                             />
                         </ListItem>
                         <ListItem>
@@ -141,7 +141,7 @@ class ReferencePage extends React.Component {
                         <ListItem>
                             <ListItemText
                             primary="Tectonic context [Video file]"
-                            secondary='Sage-animation.ca. (n.d.). Tectonic context [Video file]. Retrieved from http://www.miguasha.ca/mig-en/tectonic_context.php'
+                            secondary='Sage-animation.ca. (2007). Tectonic context [Video file]. Retrieved from http://www.miguasha.ca/mig-en/tectonic_context.php'
                             />
                         </ListItem>
                     </List>
@@ -187,7 +187,7 @@ class ReferencePage extends React.Component {
                         <ListItem>
                             <ListItemText
                             primary="The soft anatomy of Bothriolepis. Journal of Paleontology"
-                            secondary='Denison, R.H. (1941). The soft anatomy of Bothriolepis. Journal of Paleontology. 15 (5): 553–561.'
+                            secondary='Denison, R. H. (1941). The soft anatomy of Bothriolepis. Journal of Paleontology, 553-561.'
                             />
                         </ListItem>
                         <ListItem>
@@ -222,7 +222,7 @@ class ReferencePage extends React.Component {
                         </ListItem>
                     </List>
                     <Typography component="h1" variant="h6" align="left">
-                      Extinction Page
+                      Climate Page
                     </Typography>
                     <List>
                       <ListItem>
@@ -303,6 +303,65 @@ class ReferencePage extends React.Component {
                           secondary='SERC- Carleton College. (2016). Dropstones. Retrieved March 23rd, 2019, from https://serc.carleton.edu/NAGTWorkshops/sedimentary/images/dropstones.html.'
                           />
                       </ListItem>
+                    </List>
+                    <Typography component="h1" variant="h6" align="left">
+                        Extinction Page
+                    </Typography>
+                    <List>
+                        <ListItem>
+                            <ListItemText
+                            primary="The 6 Craziest Extinctions Ever"
+                            secondary='AsapSCIENCE. (2015, April 22nd). The 6 Craziest Extinctions Ever. [Youtube]. Retrieved March 24th, 2019, from https://www.youtube.com/watch?v=wissIOikrqc.'
+                            />
+                        </ListItem>
+                        <ListItem>
+                            <ListItemText
+                            primary="Devonian Period: Climate, Animals & Plants"
+                            secondary='Bagley, M. (2014). Devonian Period: Climate, Animals & Plants. Live Science. Retrieved March 23rd, 2019, from https://www.livescience.com/43596-devonian-period.html.'
+                            />
+                        </ListItem>
+                        <ListItem>
+                            <ListItemText
+                            primary="The Devonian extinction saw the oceans choke to death"
+                            secondary='Baraniuk, C. (2015). The Devonian extinction saw the oceans choke to death. BBC. Retrieved March 24th, 2019, from http://www.bbc.com/earth/story/20150624-the-day-the-oceans-died.'
+                            />
+                        </ListItem>
+                        <ListItem>
+                            <ListItemText
+                            primary="Introduction to Paleobiology and the Fossil Record"
+                            secondary='Benton, M., J., & Harper, D., A., T. (2009). Introduction to Paleobiology and the Fossil Record. Wiley-Blackwell.'
+                            />
+                        </ListItem>
+                        <ListItem>
+                            <ListItemText
+                            primary="BrainPOP: Extinction"
+                            secondary='BrainPOP. (2019). Extinction. Retrieved March 24th, 2019, from https://www.brainpop.com/science/ourfragileenvironment/extinction/.'
+                            />
+                        </ListItem>
+                        <ListItem>
+                            <ListItemText
+                            primary="Devonian climate change, breathing, and the origin of the tetrapod stem group"
+                            secondary='Clack, J. A. (2007). Devonian climate change, breathing, and the origin of the tetrapod stem group. Integrative and Comparative Biology, 47(4), 510-523.'
+                            />
+                        </ListItem>
+                        <ListItem>
+                            <ListItemText
+                            primary="Bothriolepis"
+                            secondary='Miguasha National Park. (2007). Bothriolepis. Retrieved March 24th, 2019, from http://www.miguasha.ca/mig-en/bothriolepis.php.'
+                            />
+                        </ListItem>
+                        <ListItem>
+                            <ListItemText
+                            primary="The Late Devonian extinction event"
+                            secondary='Miguasha National Park. (2007). The Late Devonian extinction event. Retrieved March 24th, 2019, from http://www.miguasha.ca/mig-en/the_late_devonian_extinction_event.php.'
+                            />
+                        </ListItem>
+                        <ListItem>
+                            <ListItemText
+                            primary="When Fish Wore Armor"
+                            secondary='PBS Eons. (2018, July 24). When Fish Wore Armor. [Youtube]. Retrieved March 24th, 2019, from https://www.youtube.com/watch?v=5pVTZH1LyTw.'
+                            />
+                        </ListItem>
                     </List>
                 </Grid>
             </Grid>

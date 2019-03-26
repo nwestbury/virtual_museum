@@ -96,11 +96,11 @@ class FossilPage extends React.Component {
                 <Grid item sm={12} md={6} className={classes.flex}>
                   <Card className={classes.card + ' ' + classes.flexVCenter}>
                     <video controls muted className={classes.card}>
-                      <source src={geoanimationVideo} type="video/mp4"></source>
+                      <source src={geoanimationVideo + '#t=26,40'} type="video/mp4"></source>
                     </video>
                     <CardContent>
                       <Typography component="p">
-                        Video simulation of plate tectonics
+                        Video simulation of plate tectonics through geologic time, Devonian starts at 0:26 (Sage animation 2007).
                       </Typography>
                     </CardContent>
                   </Card>
