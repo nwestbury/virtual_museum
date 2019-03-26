@@ -195,7 +195,7 @@ class FossilPage extends React.Component {
                       />
                       <CardContent>
                         <Typography component="p">
-                          Figure 3. Here is a complete fossil image of the extinct <i>Bothriolepis canadensis</i> (Miguasha National Park, 2007).
+                          Figure 3. A complete fossil image of the extinct <i>Bothriolepis canadensis</i> (Miguasha National Park, 2007).
                         </Typography>
                       </CardContent>
                     </Card>
@@ -213,7 +213,7 @@ class FossilPage extends React.Component {
                     }}/>
                     <CardContent>
                       <Typography component="p">
-                        Here is a short educational video on mass extinctions that have occurred throughout time on Earth (AsapSCIENCE, 2015).
+                        A short educational video on mass extinctions that have occurred throughout time on Earth (AsapSCIENCE, 2015).
                       </Typography>
                     </CardContent>
                   </Card>
@@ -236,7 +236,7 @@ class FossilPage extends React.Component {
                         title="Early tetrapod"
                       />
                       <Typography component="p">
-                        Figure 4. Here is an image of an early tetrapod that appeared in the Devonian period (Benton & Harper, 2009).
+                        Figure 4. An image of an early tetrapod that appeared in the Devonian period (Benton & Harper, 2009).
                       </Typography>
                     </CardContent>
                   </Card>

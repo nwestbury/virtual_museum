@@ -22,6 +22,7 @@ import devonian_climate from './img/devonian_climate.png';
 import geomap from './img/geomap.png';
 import temp_graph from './img/temp_graph.png';
 import coral from './img/coral.png';
+import climate_graph from './img/climate_graph.png';
 
 
 const styles = theme => ({
@@ -122,7 +123,7 @@ class FossilPage extends React.Component {
                         />
                         <CardContent>
                           <Typography component="p">
-                            Figure 1: sedimentary rock that is an evaporite which is known as rock salt (Geology.com, 2019)
+                            Figure 1. sedimentary rock that is an evaporite which is known as rock salt (Geology.com, 2019)
                           </Typography>
                         </CardContent>
                       </Card>
@@ -137,7 +138,7 @@ class FossilPage extends React.Component {
                         />
                         <CardContent>
                           <Typography component="p">
-                            Figure 2: sedimentary rock that is a calcrete called limestone (Minerals Education Coalition, 2019).
+                            Figure 2. sedimentary rock that is a calcrete called limestone (Minerals Education Coalition, 2019).
                           </Typography>
                         </CardContent>
                       </Card>
@@ -152,7 +153,7 @@ class FossilPage extends React.Component {
                         />
                         <CardContent>
                           <Typography component="p">
-                            Figure 3: tillite (Illinois State Geological Survey, 2019)
+                            Figure 3. tillite (Illinois State Geological Survey, 2019)
                           </Typography>
                         </CardContent>
                       </Card>
@@ -167,7 +168,7 @@ class FossilPage extends React.Component {
                         />
                         <CardContent>
                           <Typography component="p">
-                            Figure 4: dropstone (SERC-Carleton College, 2016).
+                            Figure 4. dropstone (SERC-Carleton College, 2016).
                           </Typography>
                         </CardContent>
                       </Card>
@@ -175,6 +176,35 @@ class FossilPage extends React.Component {
                   </Grid>
                 </Grid>
                 <Grid item sm={12} md={6} className={classes.flex}>
+                  <Card className={classes.flexVCenter}>
+                    <CardMedia
+                      component="img"
+                      alt="Climate Graph"
+                      image={climate_graph}
+                      classes={{
+                        media: classes.maxHeight,
+                      }}
+                      title="Climate Graph"
+                    />
+                    <CardContent>
+                      <Typography component="p">
+                        Figure 5. Shows climate change through time on Earth transitioning between icehouse conditions and greenhouse conditions (Benton & Harper, 2009).
+                      </Typography>
+                    </CardContent>
+                  </Card>
+                </Grid>
+                <Grid item sm={12} md={6}>
+                  <Typography component="h3" variant="h5" align="center">
+                    Climate Change
+                  </Typography>
+                  <Typography variant="subtitle1" align="left">
+                    In the last 600 million years there has been a minimum of at least five alternations of
+                    the <Dialog title="climate" def="Climate is the long-term weather in a specific area (National Geographic, 2019)." /> between
+                    greenhouse and icehouse conditions on Earth (Benton & Harper, 2009). The Earth’s climate has spent most of the time in greenhouse conditions (Benton & Harper, 2009). There is more than one process that can occur solely or in combination that can lead to climate change. Such as, the moving of the tectonic plates, Milankovitch cycles, or certain biota like photosynthesizes (Benton & Harper, 2009). Generally, throughout the Earth’s history it can be divided into five different climate zones such
+                    as, <Dialog title="humid tropical" def="A Humid tropical climate zone has no winters and has average temperatures above 18 °C (Benton & Harper, 2009)."/>, <Dialog title="dry subtropical" def="A Dry Subtropical climate zone is where the evaporation exceeds the precipitation (Benton & Harper, 2009)."/>, <Dialog title="warm temperate" def="A Warm temperate climate zone has mild winters (Benton & Harper, 2009)."/>, <Dialog title="cool temperate" def="A Cool temperate climate zone has severe winters (Benton & Harper, 2009)." />,
+                    and <Dialog title="polar" def="A Polar climate zone has no summers and the temperatures are below 10 °C (Benton & Harper, 2009)." /> (Benton & Harper, 2009). It is important to note that climate change is a natural process that has been occurring long before the existence of humans and is not a new phenomenon in the Earth’s history. As shown in the image (Figure 5) climate change has been occurring throughout time on Earth transitioning between icehouse and greenhouse conditions (Benton & Harper, 2009).
+                  </Typography>
+                  <br />
                   <Card className={classes.flexVCenter}>
                     <CardMedia
                       component="img"
@@ -191,23 +221,11 @@ class FossilPage extends React.Component {
                 </Grid>
                 <Grid item sm={12} md={6}>
                   <Typography component="h3" variant="h5" align="center">
-                    Climate Change
-                  </Typography>
-                  <Typography variant="subtitle1" align="left">
-                    In the last 600 million years there has been a minimum of at least five alternations of
-                    the <Dialog title="climate" def="Climate is the long-term weather in a specific area (National Geographic, 2019)." /> between
-                    greenhouse and icehouse conditions on Earth (Benton & Harper, 2009). The Earth’s climate has spent most of the time in greenhouse conditions (Benton & Harper, 2009). There is more than one process that can occur solely or in combination that can lead to climate change. Such as, the moving of the tectonic plates, Milankovitch cycles, or certain biota like photosynthesizes (Benton & Harper, 2009). Generally, throughout the Earth’s history it can be divided into five different climate zones such
-                    as, <Dialog title="humid tropical" def="A Humid tropical climate zone has no winters and has average temperatures above 18 °C (Benton & Harper, 2009)."/>, <Dialog title="dry subtropical" def="A Dry Subtropical climate zone is where the evaporation exceeds the precipitation (Benton & Harper, 2009)."/>, <Dialog title="warm temperate" def="A Warm temperate climate zone has mild winters (Benton & Harper, 2009)."/>, <Dialog title="cool temperate" def="A Cool temperate climate zone has severe winters (Benton & Harper, 2009)." />,
-                    and <Dialog title="polar" def="A Polar climate zone has no summers and the temperatures are below 10 °C (Benton & Harper, 2009)." /> (Benton & Harper, 2009). It is important to note that climate change is a natural process that has been occurring long before the existence of humans and is not a new phenomenon in the Earth’s history. As shown in the image (Figure 5) climate change has been occurring throughout time on Earth transitioning between icehouse and greenhouse conditions (Benton & Harper, 2009).
-                  </Typography>
-                </Grid>
-                <Grid item sm={12} md={6}>
-                  <Typography component="h3" variant="h5" align="center">
                     Devonian Climate
                   </Typography>
                   <Typography variant="subtitle1" align="left">
                   During the Paleozoic era, 416 million to 358 million years ago was the Devonian period (Bagley, 2014). The Devonian period came right after the Silurian period and was before the Carboniferous period and is often known as the “Age of Fishes” (Bagley, 2014). During the “Age of Fishes” the species of fish had an evolutionary explosion where many species were quite odd looking and very few resemble the fish of modern day (Miguasha National Park, 2007). It was during this period the fish
-                  class <Dialog title="Placoderms" def="A class of fish that appeared in the mid-Silurian period and went extinct in the late Devonian period having armor, simple jaws, and a hinged head shield (Benton & Harper, 2009)." /> experienced adaptive radiation taking over the aquatic environment such as the bottom-dwelling fish known as <i>Bothriolepis canadensis</i> (Miguasha National Park, 2007). The paleogeography and paleoclimate of the Devonian period is different from the modern day (Figure 5).
+                  class <Dialog title="Placoderms" def="A class of fish that appeared in the mid-Silurian period and went extinct in the late Devonian period having armor, simple jaws, and a hinged head shield (Benton & Harper, 2009)." /> experienced adaptive radiation taking over the aquatic environment such as the bottom-dwelling fish known as <i>Bothriolepis canadensis</i> (Miguasha National Park, 2007). The paleogeography and paleoclimate of the Devonian period is different from the modern day (Figure 6).
                   </Typography>
                 </Grid>
                 <Grid item sm={12} md={6} className={classes.flex}>
@@ -220,14 +238,14 @@ class FossilPage extends React.Component {
                     />
                     <CardContent>
                       <Typography component="p">
-                        Figure 5. Shows prehistoric plants and animals in the Devonian period (Paleontology World, 2017).
+                        Figure 6. Shows prehistoric plants and animals in the Devonian period (Paleontology World, 2017).
                       </Typography>
                     </CardContent>
                   </Card>
                 </Grid>
                 <Grid item sm={12} md={6}>
                   <Typography variant="subtitle1" align="left">
-                    In the geographic map of the world during the Devonian period (Figure 6) the Earth appears as a bizarre planet looking very different from the modern-day world (Miguasha National Park, 2007). During the Devonian there were three major landmasses such as Gondwana, Euramerica, and Siberia (Bagley, 2014; Miguasha National Park, 2007). Gondwana was positioned in mostly the southern hemisphere (Figure 6) and even covered the south pole having a cool temperate climate (Bagley, 2014; Miguasha National Park, 2007). Siberia was positioned more north having an arid type of climate and lastly, in the Devonian period the landmass Euramerica was found at the equator which had arid and tropical climates (Miguasha National Park, 2007). The position of Euramerica set the stage for the spread of tropical and equatorial forests (Miguasha National Park, 2007). As well, the position of the landmass near the equator indicates that vertebrate animals were concentrated there where the warm climate helped their development and evolution (Miguasha National Park, 2007). Overall, the climate of the continental interior regions during the Devonian period was warm (Figure 7) and dry having greenhouse conditions (Bagley, 2014; Miguasha National Park, 2007).
+                    In the geographic map of the world during the Devonian period (Figure 7) the Earth appears as a bizarre planet looking very different from the modern-day world (Miguasha National Park, 2007). During the Devonian there were three major landmasses such as Gondwana, Euramerica, and Siberia (Bagley, 2014; Miguasha National Park, 2007). Gondwana was positioned in mostly the southern hemisphere (Figure 7) and even covered the south pole having a cool temperate climate (Bagley, 2014; Miguasha National Park, 2007). Siberia was positioned more north having an arid type of climate and lastly, in the Devonian period the landmass Euramerica was found at the equator which had arid and tropical climates (Miguasha National Park, 2007). The position of Euramerica set the stage for the spread of tropical and equatorial forests (Miguasha National Park, 2007). As well, the position of the landmass near the equator indicates that vertebrate animals were concentrated there where the warm climate helped their development and evolution (Miguasha National Park, 2007). Overall, the climate of the continental interior regions during the Devonian period was warm (Figure 8) and dry having greenhouse conditions (Bagley, 2014; Miguasha National Park, 2007).
                   </Typography>
                 </Grid>
                 <Grid item sm={12} md={6} className={classes.flex}>
@@ -240,7 +258,7 @@ class FossilPage extends React.Component {
                     />
                     <CardContent>
                       <Typography component="p">
-                        Figure 6. Shows the geographic map of the Devonian period (Miguasha National Park, 2007).
+                        Figure 7. Shows the geographic map of the Devonian period (Miguasha National Park, 2007).
                       </Typography>
                     </CardContent>
                   </Card>
@@ -264,7 +282,7 @@ class FossilPage extends React.Component {
                     />
                     <CardContent>
                       <Typography component="p">
-                        Figure 7. Graph displaying both the atmospheric carbon curve and the temperature curve through time (Miguasha National Park, 2007).
+                        Figure 8. Graph displaying both the atmospheric carbon curve and the temperature curve through time (Miguasha National Park, 2007).
                       </Typography>
                     </CardContent>
                   </Card>
@@ -293,7 +311,7 @@ class FossilPage extends React.Component {
                         Did you know?
                       </Typography>
                       <Typography component="p" variant="subtitle1">
-                        During the Devonian period the <i>Bothriolepis canadensis</i> had days that were only 22 hours long and a Devonian year that had 400 days (Benton & Harper, 2009; Miguasha National Park, 2007). The rotation speed of the planet changes over time due to the gravitational pull of the Moon (Miguasha National Park, 2007). The Moon attracts great masses of water toward it while it orbits around the Earth and as the Earth turns eastward, the tides are moving westward, and this slows the rotation of the planet by 0.0016 seconds per century (Miguasha National Park, 2007). Thus, the Earth was rotating faster in the past, having longer years, but shorter days (Benton & Harper, 2009; Miguasha National Park, 2007). The evidence of this can be seen in the growth lines of the Devonian coral (Benton & Harper, 2009; Miguasha National Park, 2007). Under a microscope we can see the daily layers the corals add making it possible to count the number of days (Benton & Harper, 2009; Miguasha National Park, 2007). Therefore, a Devonian coral (Figure 8) will have 400 growth lines in a year and a modern-day coral will have 365 growth lines (Benton & Harper, 2009; Miguasha National Park, 2007).
+                        During the Devonian period the <i>Bothriolepis canadensis</i> had days that were only 22 hours long and a Devonian year that had 400 days (Benton & Harper, 2009; Miguasha National Park, 2007). The rotation speed of the planet changes over time due to the gravitational pull of the Moon (Miguasha National Park, 2007). The Moon attracts great masses of water toward it while it orbits around the Earth and as the Earth turns eastward, the tides are moving westward, and this slows the rotation of the planet by 0.0016 seconds per century (Miguasha National Park, 2007). Thus, the Earth was rotating faster in the past, having longer years, but shorter days (Benton & Harper, 2009; Miguasha National Park, 2007). The evidence of this can be seen in the growth lines of the Devonian coral (Benton & Harper, 2009; Miguasha National Park, 2007). Under a microscope we can see the daily layers the corals add making it possible to count the number of days (Benton & Harper, 2009; Miguasha National Park, 2007). Therefore, a Devonian coral (Figure 9) will have 400 growth lines in a year and a modern-day coral will have 365 growth lines (Benton & Harper, 2009; Miguasha National Park, 2007).
                       </Typography>
                       <br />
                       <CardMedia
@@ -307,7 +325,7 @@ class FossilPage extends React.Component {
                       />
                       <CardContent>
                         <Typography component="p">
-                          Figure 8.  Image of a Devonian banded coral (Benton & Harper, 2009).
+                          Figure 9.  Image of a Devonian banded coral (Benton & Harper, 2009).
                         </Typography>
                       </CardContent>
                     </CardContent>
