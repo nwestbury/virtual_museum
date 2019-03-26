@@ -93,6 +93,12 @@ class ReferencePage extends React.Component {
                         </ListItem>
                         <ListItem>
                             <ListItemText
+                            primary="Devonian Fishes and Plants of Miguasha, Quebec, Canada"
+                            secondary='Cloutier, R., 1996, Devonian Fishes and Plants of Miguasha, Quebec, Canada. Retrieved from https://journals.lib.unb.ca/index.php/GC/article/view/geocanj.2013.40.008/24239'
+                            />
+                        </ListItem>
+                        <ListItem>
+                            <ListItemText
                             primary="A new large-bodied species of Bothriolepis (Antiarchi) from the Upper Devonian of Ellesmere Island, Nunavut, Canada"
                             secondary='Downs, J., Daeschler, E., Garcia, V., & Shubin, N. (2016). A new large-bodied species of Bothriolepis (Antiarchi) from the Upper Devonian of Ellesmere Island, Nunavut, Canada. A new large-bodied species of Bothriolepis (Antiarchi) from the Upper Devonian of Ellesmere Island, Nunavut, Canada, 36(6), 1937-2809. http://dx.doi.org/10.1080/02724634.2016.1221833'
                             />
@@ -142,6 +148,18 @@ class ReferencePage extends React.Component {
                             <ListItemText
                             primary="Tectonic context [Video file]"
                             secondary='Sage-animation.ca. (2007). Tectonic context [Video file]. Retrieved from http://www.miguasha.ca/mig-en/tectonic_context.php'
+                            />
+                        </ListItem>
+                        <ListItem>
+                            <ListItemText
+                            primary="Devonian Fishes and Plants of Miguasha"
+                            secondary='Cloutier, R., 1996, Devonian Fishes and Plants of Miguasha, Quebec, Canada: Verlag Dr. Friedrich Pfeil, München'
+                            />
+                        </ListItem>
+                        <ListItem>
+                            <ListItemText
+                            primary="The Miguasha Fossil-Fish-Lagerstätte: A consequence of the Devonian land–sea interactions"
+                            secondary='Cloutier, R., Proust, J.-N., and Tessier, B., 2011, The Miguasha Fossil-Fish-Lagerstätte: A consequence of the Devonian land–sea interactions: Palaeobiodiversity and Palaeoenvironments, v. 91, p. 293–323, http://dx.doi.org/10.1007/s12549-011-0058-0.'
                             />
                         </ListItem>
                     </List>

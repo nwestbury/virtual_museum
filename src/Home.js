@@ -98,14 +98,7 @@ class Home extends React.Component {
                     What it is?
                   </Typography>
                   <Typography variant="subtitle1" align="left">
-                    <i>Bothriolepis</i> is a genus of extinct fishes that are characteristic of the middle and late Devonian period (387 million- 360 million years ago). They belong to the order Antiarcha, and the class <i>Placodermi</i>, with about hundreds of different fossil species found all around the world.
-                  </Typography>
-                  <br />
-                  <Typography component="h3" variant="h5" align="center">
-                    Diet
-                  </Typography>
-                  <Typography variant="subtitle1" align="left">
-                    <i>Bothriolepis</i> were detritivores meaning they feed on decomposing organic matter. They fed on a diet of mud, microorganisms, and algae as evidenced by “carbonaceous material” and “fine muddy or silty stone usually present in the posterior alimentary tract” (Denison 1941). Based on the ventral position of the mouth, Robert Dension determined that  <i>Bothriolepis</i> was likely a bottom feeder.
+                     <i>Bothriolepis</i> is a genus of extinct fishes that are characteristic of the middle and late Devonian period (387 million- 360 million years ago). They belong to the order Antiarcha, and the class Placodermi, with about hundreds of different fossil species found all around the world (Johanson, 1998). In 1840, Karl Eichwald, a German geologist, physician and a naturalist introduced the name <i>Bothriolepis</i> from the Novgorod region of present-day Russia (Bechard et.al., 2014). <i>Bothriolepis</i> were detritivores, meaning they feed on decomposing organic matter. They fed on a diet of mud, microorganisms, and algae as evidenced by “carbonaceous material” and “fine muddy or silty stone usually present in the posterior alimentary tract” (Denison 1941). Based on the ventral position of the mouth, Robert Dension, a paleontologist determined that <i>Bothriolepis</i> was likely a bottom feeder.
                   </Typography>
                 </Grid>
                 <Grid item sm={12} md={6} className={classes.flex}>
@@ -143,14 +136,8 @@ class Home extends React.Component {
                     Environment (of origin and throughout time)
                   </Typography>
                   <Typography variant="subtitle1" align="left">
-                    In 1840, Karl Eichwald, a German geologist, physician and a naturalist introduced the name <i>Bothriolepis</i> from the Novgorod region of present-day Russia. Since its discovery, <i>Bothriolepis</i> specimens have been discovered from the lower Devonian of China, Middle Devonian of Australia and Antarctica, and Upper Devonian localities on every continent. Some of the large-bodied species of <i>Bothriolepis</i> from the Upper Devonian period are found on the Ellesmere Island in Nunavut, Canada (see figure 1). Some recent work has suggested that <i>Bothriolepis</i> lived in Devonian environments that are traditionally thought to be marine and freshwater environments including lagoons, rivers, deltas and coastal environments, which made it easier for them to feed on invertebrates such as crustaceans and molluscs.
-                  </Typography>
-                  <br />
-                  <Typography component="h3" variant="h5" align="center">
-                    Paleogeography
-                  </Typography>
-                  <Typography variant="subtitle1" align="left">
-                    The paleogeography is thought to be lacustrine, which is associated with lakes, estuarine, which is a partially enclosed coastal body with streams and lakes flowing through it, coastal marine and marine.The Miguasha biote has a large assembly of fish during that time. (Cloutier et al. 1996)
+                    Since its discovery, <i>Bothriolepis</i> specimens have been discovered from the lower Devonian of China, Middle Devonian of Australia and Antarctica, and Upper Devonian localities on every continent. Some of the large-bodied species of <i>Bothriolepis</i> from the Upper Devonian period are found on the Ellesmere Island in Nunavut, Canada (see figure 1). In Canada, Miguasha, Quebec is the most famous fossil site for <i>Bothriolepis canadensis</i>  due to its excellent preservation. Some recent work has suggested that <i>Bothriolepis</i> lived in Devonian environments that are traditionally thought to be marine and freshwater environments including lagoons, rivers, deltas and coastal environments, which made it easier for them to feed on invertebrates such as crustaceans and molluscs (Downs et. al., 2016).
+                    The Miguasha biota has two components, an allochthonous continental component, composed of plants and invertebrates, and an autochthonous aquatic component, composed of invertebrates and lower vertebrates. Various continental plants, Archaeopteris, Spermasporites, more than 70 species of spores  and 15 genera of marine acritarchs have been identified in the Miguasha site.(Cloutier et al. 1996).
                   </Typography>
                 </Grid>
             </Grid>
